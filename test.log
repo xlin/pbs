@@ -1,0 +1,1952 @@
+mount dev 
+create user 
+copy addons 
+add distrib 
+adding medium "Core Release"
+adding medium "Core Release Debug" (ignored by default)
+adding medium "Core Updates"
+adding medium "Core Updates Debug" (ignored by default)
+adding medium "Core Updates Testing" (ignored by default)
+adding medium "Core Updates Testing Debug" (ignored by default)
+adding medium "Core Backports" (ignored by default)
+adding medium "Core Backports Debug" (ignored by default)
+adding medium "Core Backports Testing" (ignored by default)
+adding medium "Core Backports Testing Debug" (ignored by default)
+adding medium "Nonfree Release" (ignored by default)
+adding medium "Nonfree Release Debug" (ignored by default)
+adding medium "Nonfree Updates" (ignored by default)
+adding medium "Nonfree Updates Debug" (ignored by default)
+adding medium "Nonfree Updates Testing" (ignored by default)
+adding medium "Nonfree Updates Testing Debug" (ignored by default)
+adding medium "Nonfree Backports" (ignored by default)
+adding medium "Nonfree Backports Debug" (ignored by default)
+adding medium "Nonfree Backports Testing" (ignored by default)
+adding medium "Nonfree Backports Testing Debug" (ignored by default)
+adding medium "Tainted Release" (ignored by default)
+adding medium "Tainted Release Debug" (ignored by default)
+adding medium "Tainted Updates" (ignored by default)
+adding medium "Tainted Updates Debug" (ignored by default)
+adding medium "Tainted Updates Testing" (ignored by default)
+adding medium "Tainted Updates Testing Debug" (ignored by default)
+adding medium "Tainted Backports" (ignored by default)
+adding medium "Tainted Backports Debug" (ignored by default)
+adding medium "Tainted Backports Testing" (ignored by default)
+adding medium "Tainted Backports Testing Debug" (ignored by default)
+    http://mirror.yandex.ru/mageia/distrib/3/i586/media/core/release/media_info/20130521-174810-synthesis.hdlist.cz
+        0% of 0 completed, ETA = --:--:--, speed = 0                                   22% of 2076k completed, ETA = 0:00:01, speed = 2034k                           100% of 2076k completed, ETA = --:--:--, speed = 3146k                                                                                                    http://mirror.yandex.ru/mageia/distrib/3/i586/media/core/updates/media_info/20131206-220317-synthesis.hdlist.cz
+        0% of 0 completed, ETA = --:--:--, speed = 0                                   100% of 454k completed, ETA = --:--:--, speed = 2416k                                                                                                 add media 
+Copying srpm to chroot_dir/home/user 
+Rebuilding RPM database...
+Installing build dependencies...
+parsing: /etc/urpmi/mediacfg.d/Official-3-i586
+examining synthesis file [/var/lib/urpmi/Core Release/synthesis.hdlist.cz]
+examining synthesis file [/var/lib/urpmi/Core Updates/synthesis.hdlist.cz]
+opening rpmdb (root=, write=)
+selecting xroot-0.0.6-3.mga3.mrc.src
+requiring fpc-src[>= 2.6.0],fpc[>= 2.6.0],libx11_6-devel for xroot-0.0.6-3.mga3.mrc.src
+selecting libx11_6-devel-1.6.0-1.mga3.i586
+requiring devel(libxcb),libx11_6[== 1.6.0],pkgconfig(kbproto),pkgconfig(xcb),pkgconfig(xproto),x11-proto-devel[>= 1.0.0] for libx11_6-devel-1.6.0-1.mga3.i586
+chosen x11-proto-devel-7.6-24.mga3.i586 for pkgconfig(xproto)
+selecting x11-proto-devel-7.6-24.mga3.i586
+chosen x11-proto-devel-7.6-24.mga3.i586 for pkgconfig(kbproto)
+chosen libxcb-devel-1.9.1-1.mga3.i586 for pkgconfig(xcb)
+selecting libxcb-devel-1.9.1-1.mga3.i586
+requiring devel(libXau),devel(libXdmcp),libpthread-stubs,libxcb-composite0[== 1.9.1],libxcb-damage0[== 1.9.1],libxcb-dpms0[== 1.9.1],libxcb-dri2_0[== 1.9.1],libxcb-glx0[== 1.9.1],libxcb-randr0[== 1.9.1],libxcb-record0[== 1.9.1],libxcb-render0[== 1.9.1],libxcb-res0[== 1.9.1],libxcb-screensaver0[== 1.9.1],libxcb-shape0[== 1.9.1],libxcb-shm0[== 1.9.1],libxcb-sync0[== 1.9.1],libxcb-xevie0[== 1.9.1],libxcb-xf86dri0[== 1.9.1],libxcb-xfixes0[== 1.9.1],libxcb-xinerama0[== 1.9.1],libxcb-xprint0[== 1.9.1],libxcb-xtest0[== 1.9.1],libxcb-xv0[== 1.9.1],libxcb-xvmc0[== 1.9.1],libxcb1[== 1.9.1] for libxcb-devel-1.9.1-1.mga3.i586
+chosen libxcb-xvmc0-1.9.1-1.mga3.i586 for libxcb-xvmc0[== 1.9.1]
+selecting libxcb-xvmc0-1.9.1-1.mga3.i586
+requiring libxcb.so.1 for libxcb-xvmc0-1.9.1-1.mga3.i586
+chosen libxcb1-1.9.1-1.mga3.i586 for libxcb.so.1
+selecting libxcb1-1.9.1-1.mga3.i586
+requiring libXau.so.6,libXdmcp.so.6 for libxcb1-1.9.1-1.mga3.i586
+chosen libxdmcp6-1.1.1-3.mga3.i586 for libXdmcp.so.6
+selecting libxdmcp6-1.1.1-3.mga3.i586
+chosen libxau6-1.0.7-2.mga3.i586 for libXau.so.6
+selecting libxau6-1.0.7-2.mga3.i586
+chosen libxcb-shm0-1.9.1-1.mga3.i586 for libxcb-shm0[== 1.9.1]
+selecting libxcb-shm0-1.9.1-1.mga3.i586
+chosen libxcb1-1.9.1-1.mga3.i586 for libxcb1[== 1.9.1]
+chosen libxcb-xf86dri0-1.9.1-1.mga3.i586 for libxcb-xf86dri0[== 1.9.1]
+selecting libxcb-xf86dri0-1.9.1-1.mga3.i586
+chosen libxcb-record0-1.9.1-1.mga3.i586 for libxcb-record0[== 1.9.1]
+selecting libxcb-record0-1.9.1-1.mga3.i586
+chosen libxdmcp6-devel-1.1.1-3.mga3.i586 for devel(libXdmcp)
+selecting libxdmcp6-devel-1.1.1-3.mga3.i586
+chosen libxcb-sync0-1.9.1-1.mga3.i586 for libxcb-sync0[== 1.9.1]
+selecting libxcb-sync0-1.9.1-1.mga3.i586
+chosen libxcb-render0-1.9.1-1.mga3.i586 for libxcb-render0[== 1.9.1]
+selecting libxcb-render0-1.9.1-1.mga3.i586
+chosen libxcb-composite0-1.9.1-1.mga3.i586 for libxcb-composite0[== 1.9.1]
+selecting libxcb-composite0-1.9.1-1.mga3.i586
+chosen libxau6-devel-1.0.7-2.mga3.i586 for devel(libXau)
+selecting libxau6-devel-1.0.7-2.mga3.i586
+chosen libxcb-shape0-1.9.1-1.mga3.i586 for libxcb-shape0[== 1.9.1]
+selecting libxcb-shape0-1.9.1-1.mga3.i586
+chosen libxcb-xv0-1.9.1-1.mga3.i586 for libxcb-xv0[== 1.9.1]
+selecting libxcb-xv0-1.9.1-1.mga3.i586
+chosen libxcb-damage0-1.9.1-1.mga3.i586 for libxcb-damage0[== 1.9.1]
+selecting libxcb-damage0-1.9.1-1.mga3.i586
+chosen libxcb-dpms0-1.9.1-1.mga3.i586 for libxcb-dpms0[== 1.9.1]
+selecting libxcb-dpms0-1.9.1-1.mga3.i586
+selecting libpthread-stubs-0.3-2.mga3.i586
+chosen libxcb-xinerama0-1.9.1-1.mga3.i586 for libxcb-xinerama0[== 1.9.1]
+selecting libxcb-xinerama0-1.9.1-1.mga3.i586
+chosen libxcb-res0-1.9.1-1.mga3.i586 for libxcb-res0[== 1.9.1]
+selecting libxcb-res0-1.9.1-1.mga3.i586
+chosen libxcb-glx0-1.9.1-1.mga3.i586 for libxcb-glx0[== 1.9.1]
+selecting libxcb-glx0-1.9.1-1.mga3.i586
+chosen libxcb-screensaver0-1.9.1-1.mga3.i586 for libxcb-screensaver0[== 1.9.1]
+selecting libxcb-screensaver0-1.9.1-1.mga3.i586
+chosen libxcb-xfixes0-1.9.1-1.mga3.i586 for libxcb-xfixes0[== 1.9.1]
+selecting libxcb-xfixes0-1.9.1-1.mga3.i586
+chosen libxcb-xtest0-1.9.1-1.mga3.i586 for libxcb-xtest0[== 1.9.1]
+selecting libxcb-xtest0-1.9.1-1.mga3.i586
+chosen libxcb-randr0-1.9.1-1.mga3.i586 for libxcb-randr0[== 1.9.1]
+selecting libxcb-randr0-1.9.1-1.mga3.i586
+chosen libxcb-xprint0-1.9.1-1.mga3.i586 for libxcb-xprint0[== 1.9.1]
+selecting libxcb-xprint0-1.9.1-1.mga3.i586
+chosen libxcb-dri2_0-1.9.1-1.mga3.i586 for libxcb-dri2_0[== 1.9.1]
+selecting libxcb-dri2_0-1.9.1-1.mga3.i586
+chosen libxcb-xevie0-1.9.1-1.mga3.i586 for libxcb-xevie0[== 1.9.1]
+selecting libxcb-xevie0-1.9.1-1.mga3.i586
+chosen libx11_6-1.6.0-1.mga3.i586 for libx11_6[== 1.6.0]
+selecting libx11_6-1.6.0-1.mga3.i586
+chosen libxcb-devel-1.9.1-1.mga3.i586 for devel(libxcb)
+chosen x11-proto-devel-7.6-24.mga3.i586 for x11-proto-devel[>= 1.0.0]
+chosen fpc-src-2.6.0-3.mga3.i586 for fpc-src[>= 2.6.0]
+selecting fpc-src-2.6.0-3.mga3.i586
+chosen fpc-2.6.0-3.mga3.i586 for fpc[>= 2.6.0]
+selecting fpc-2.6.0-3.mga3.i586
+xroot is not in potential orphans
+opening rpmdb (root=, write=)
+getting graph of dependencies for sorting
+sorting graph of dependencies
+rpms sorted by dependencies:
+libpthread-stubs
+libxau6
+x11-proto-devel
+libxau6-devel
+libxdmcp6
+libxdmcp6-devel
+fpc-src
+fpc
+libxcb1
+libxcb-glx0
+libxcb-xevie0
+libxcb-xvmc0
+libxcb-xinerama0
+libxcb-dri2_0
+libxcb-screensaver0
+libxcb-res0
+libxcb-xv0
+libxcb-randr0
+libx11_6
+libxcb-xtest0
+libxcb-dpms0
+libxcb-record0
+libxcb-damage0
+libxcb-xprint0
+libxcb-composite0
+libxcb-shm0
+libxcb-sync0
+libxcb-shape0
+libxcb-render0
+libxcb-xfixes0
+libxcb-xf86dri0
+libxcb-devel
+libx11_6-devel
+xroot
+selecting libxdmcp6-1.1.1-3.mga3.i586
+selecting libxau6-1.0.7-2.mga3.i586
+selecting libpthread-stubs-0.3-2.mga3.i586
+selecting libxdmcp6-devel-1.1.1-3.mga3.i586
+requiring pkgconfig(xproto),x11-proto-devel[>= 1.0.0] for libxdmcp6-devel-1.1.1-3.mga3.i586
+chosen x11-proto-devel-7.6-24.mga3.i586 for pkgconfig(xproto)
+selecting x11-proto-devel-7.6-24.mga3.i586
+chosen x11-proto-devel-7.6-24.mga3.i586 for x11-proto-devel[>= 1.0.0]
+selecting fpc-src-2.6.0-3.mga3.i586
+selecting fpc-2.6.0-3.mga3.i586
+selecting libxau6-devel-1.0.7-2.mga3.i586
+transaction valid: remove= update=libxdmcp6,libpthread-stubs,libxau6,libxdmcp6-devel,fpc-src,fpc,x11-proto-devel,libxau6-devel
+selecting libxcb-glx0-1.9.1-1.mga3.i586
+requiring libxcb.so.1 for libxcb-glx0-1.9.1-1.mga3.i586
+chosen libxcb1-1.9.1-1.mga3.i586 for libxcb.so.1
+selecting libxcb1-1.9.1-1.mga3.i586
+selecting libxcb-xevie0-1.9.1-1.mga3.i586
+selecting libxcb-screensaver0-1.9.1-1.mga3.i586
+selecting libxcb-xinerama0-1.9.1-1.mga3.i586
+selecting libxcb-res0-1.9.1-1.mga3.i586
+selecting libxcb-dri2_0-1.9.1-1.mga3.i586
+selecting libxcb-xvmc0-1.9.1-1.mga3.i586
+transaction valid: remove= update=libxcb-screensaver0,libxcb-res0,libxcb-dri2_0,libxcb-glx0,libxcb-xevie0,libxcb-xinerama0,libxcb-xvmc0,libxcb1
+selecting libxcb-xprint0-1.9.1-1.mga3.i586
+selecting libxcb-randr0-1.9.1-1.mga3.i586
+selecting libxcb-xtest0-1.9.1-1.mga3.i586
+selecting libxcb-damage0-1.9.1-1.mga3.i586
+selecting libx11_6-1.6.0-1.mga3.i586
+selecting libxcb-dpms0-1.9.1-1.mga3.i586
+selecting libxcb-record0-1.9.1-1.mga3.i586
+selecting libxcb-xv0-1.9.1-1.mga3.i586
+transaction valid: remove= update=libxcb-xprint0,libxcb-dpms0,libxcb-randr0,libxcb-xtest0,libxcb-damage0,libx11_6,libxcb-record0,libxcb-xv0
+selecting libxcb-shm0-1.9.1-1.mga3.i586
+selecting libxcb-composite0-1.9.1-1.mga3.i586
+selecting libxcb-render0-1.9.1-1.mga3.i586
+selecting libxcb-sync0-1.9.1-1.mga3.i586
+selecting libxcb-xf86dri0-1.9.1-1.mga3.i586
+selecting libxcb-xfixes0-1.9.1-1.mga3.i586
+selecting libxcb-devel-1.9.1-1.mga3.i586
+requiring libxcb-shape0[== 1.9.1] for libxcb-devel-1.9.1-1.mga3.i586
+chosen libxcb-shape0-1.9.1-1.mga3.i586 for libxcb-shape0[== 1.9.1]
+selecting libxcb-shape0-1.9.1-1.mga3.i586
+transaction valid: remove= update=libxcb-composite0,libxcb-devel,libxcb-shm0,libxcb-sync0,libxcb-shape0,libxcb-render0,libxcb-xf86dri0,libxcb-xfixes0
+selecting libx11_6-devel-1.6.0-1.mga3.i586
+selecting xroot-0.0.6-3.mga3.mrc.src
+transaction valid: remove= update=libx11_6-devel,xroot
+scheduled sets of transactions:
+remove=0= update=8=libxdmcp6,libpthread-stubs,libxau6,libxdmcp6-devel,fpc-src,fpc,x11-proto-devel,libxau6-devel
+remove=0= update=8=libxcb-screensaver0,libxcb-res0,libxcb-dri2_0,libxcb-glx0,libxcb-xevie0,libxcb-xinerama0,libxcb-xvmc0,libxcb1
+remove=0= update=8=libxcb-xprint0,libxcb-dpms0,libxcb-randr0,libxcb-xtest0,libxcb-damage0,libx11_6,libxcb-record0,libxcb-xv0
+remove=0= update=8=libxcb-composite0,libxcb-devel,libxcb-shm0,libxcb-sync0,libxcb-shape0,libxcb-render0,libxcb-xf86dri0,libxcb-xfixes0
+remove=0= update=2=libx11_6-devel,xroot
+
+
+retrieving rpm files from medium "Core Release"...
+not using metalink since no downloaders handling metalink are available
+retrieving http://mirror.yandex.ru/mageia/distrib/3/i586/media/core/release libxdmcp6-1.1.1-3.mga3.i586.rpm libpthread-stubs-0.3-2.mga3.i586.rpm libxau6-1.0.7-2.mga3.i586.rpm libxdmcp6-devel-1.1.1-3.mga3.i586.rpm fpc-src-2.6.0-3.mga3.i586.rpm fpc-2.6.0-3.mga3.i586.rpm x11-proto-devel-7.6-24.mga3.i586.rpm libxau6-devel-1.0.7-2.mga3.i586.rpm
+'/usr/bin/curl' '-q' '--location-trusted' '-R' '-f' '--disable-epsv' '--connect-timeout' '60' '--anyauth' '--stderr' '-' '-O' 'http://mirror.yandex.ru/mageia/distrib/3/i586/media/core/release/libxdmcp6-1.1.1-3.mga3.i586.rpm' '-O' 'http://mirror.yandex.ru/mageia/distrib/3/i586/media/core/release/libpthread-stubs-0.3-2.mga3.i586.rpm' '-O' 'http://mirror.yandex.ru/mageia/distrib/3/i586/media/core/release/libxau6-1.0.7-2.mga3.i586.rpm' '-O' 'http://mirror.yandex.ru/mageia/distrib/3/i586/media/core/release/libxdmcp6-devel-1.1.1-3.mga3.i586.rpm' '-O' 'http://mirror.yandex.ru/mageia/distrib/3/i586/media/core/release/fpc-src-2.6.0-3.mga3.i586.rpm' '-O' 'http://mirror.yandex.ru/mageia/distrib/3/i586/media/core/release/fpc-2.6.0-3.mga3.i586.rpm' '-O' 'http://mirror.yandex.ru/mageia/distrib/3/i586/media/core/release/x11-proto-devel-7.6-24.mga3.i586.rpm' '-O' 'http://mirror.yandex.ru/mageia/distrib/3/i586/media/core/release/libxau6-devel-1.0.7-2.mga3.i586.rpm'
+    http://mirror.yandex.ru/mageia/distrib/3/i586/media/core/release/libxdmcp6-1.1.1-3.mga3.i586.rpm
+        0% of 0 completed, ETA = --:--:--, speed = 0                                   100% of 11969 completed, ETA = --:--:--, speed = 201k                                                                                                     http://mirror.yandex.ru/mageia/distrib/3/i586/media/core/release/libpthread-stubs-0.3-2.mga3.i586.rpm
+        100% of 3592 completed, ETA = --:--:--, speed = 122k                                                                                                      http://mirror.yandex.ru/mageia/distrib/3/i586/media/core/release/libxau6-1.0.7-2.mga3.i586.rpm
+        100% of 9069 completed, ETA = --:--:--, speed = 255k                                                                                                      http://mirror.yandex.ru/mageia/distrib/3/i586/media/core/release/libxdmcp6-devel-1.1.1-3.mga3.i586.rpm
+        100% of 21563 completed, ETA = --:--:--, speed = 413k                                                                                                     http://mirror.yandex.ru/mageia/distrib/3/i586/media/core/release/fpc-src-2.6.0-3.mga3.i586.rpm
+        15% of 13.5M completed, ETA = 0:00:02, speed = 4732k                           47% of 13.5M completed, ETA = 0:00:02, speed = 4569k                           82% of 13.5M completed, ETA = --:--:--, speed = 4673k                          100% of 13.5M completed, ETA = --:--:--, speed = 4652k                                                                                                    http://mirror.yandex.ru/mageia/distrib/3/i586/media/core/release/fpc-2.6.0-3.mga3.i586.rpm
+        7% of 16.3M completed, ETA = 0:00:05, speed = 2850k                            27% of 16.3M completed, ETA = 0:00:04, speed = 3232k                           47% of 16.3M completed, ETA = 0:00:03, speed = 3310k                           72% of 16.3M completed, ETA = 0:00:01, speed = 3589k                           99% of 16.3M completed, ETA = --:--:--, speed = 3842k                          100% of 16.3M completed, ETA = --:--:--, speed = 3850k                                                                                                    http://mirror.yandex.ru/mageia/distrib/3/i586/media/core/release/x11-proto-devel-7.6-24.mga3.i586.rpm
+        100% of 273k completed, ETA = --:--:--, speed = 2143k                                                                                                     http://mirror.yandex.ru/mageia/distrib/3/i586/media/core/release/libxau6-devel-1.0.7-2.mga3.i586.rpm
+        100% of 9058 completed, ETA = --:--:--, speed = 169k                                                                                                  retrieved http://mirror.yandex.ru/mageia/distrib/3/i586/media/core/release libxdmcp6-1.1.1-3.mga3.i586.rpm libpthread-stubs-0.3-2.mga3.i586.rpm libxau6-1.0.7-2.mga3.i586.rpm libxdmcp6-devel-1.1.1-3.mga3.i586.rpm fpc-src-2.6.0-3.mga3.i586.rpm fpc-2.6.0-3.mga3.i586.rpm x11-proto-devel-7.6-24.mga3.i586.rpm libxau6-devel-1.0.7-2.mga3.i586.rpm
+...retrieving done
+installing libxdmcp6-1.1.1-3.mga3.i586.rpm libxau6-1.0.7-2.mga3.i586.rpm libpthread-stubs-0.3-2.mga3.i586.rpm libxdmcp6-devel-1.1.1-3.mga3.i586.rpm fpc-src-2.6.0-3.mga3.i586.rpm fpc-2.6.0-3.mga3.i586.rpm x11-proto-devel-7.6-24.mga3.i586.rpm libxau6-devel-1.0.7-2.mga3.i586.rpm from /var/cache/urpmi/rpms
+starting installing packages
+opening rpmdb (root=, write=1)
+created transaction for installing on / (remove=0, install=0, upgrade=8)
+trans: scheduling update of libxdmcp6-1.1.1-3.mga3.i586 (id=16017, file=/var/cache/urpmi/rpms/libxdmcp6-1.1.1-3.mga3.i586.rpm)
+trans: scheduling update of libxau6-1.0.7-2.mga3.i586 (id=5765, file=/var/cache/urpmi/rpms/libxau6-1.0.7-2.mga3.i586.rpm)
+trans: scheduling update of libpthread-stubs-0.3-2.mga3.i586 (id=5435, file=/var/cache/urpmi/rpms/libpthread-stubs-0.3-2.mga3.i586.rpm)
+trans: scheduling update of libxdmcp6-devel-1.1.1-3.mga3.i586 (id=16022, file=/var/cache/urpmi/rpms/libxdmcp6-devel-1.1.1-3.mga3.i586.rpm)
+trans: scheduling update of fpc-src-2.6.0-3.mga3.i586 (id=17262, file=/var/cache/urpmi/rpms/fpc-src-2.6.0-3.mga3.i586.rpm)
+trans: scheduling update of fpc-2.6.0-3.mga3.i586 (id=17263, file=/var/cache/urpmi/rpms/fpc-2.6.0-3.mga3.i586.rpm)
+trans: scheduling update of x11-proto-devel-7.6-24.mga3.i586 (id=16072, file=/var/cache/urpmi/rpms/x11-proto-devel-7.6-24.mga3.i586.rpm)
+trans: scheduling update of libxau6-devel-1.0.7-2.mga3.i586 (id=5741, file=/var/cache/urpmi/rpms/libxau6-devel-1.0.7-2.mga3.i586.rpm)
+Preparing...                     #############################################
+     1/33: x11-proto-devel       #############################################
+     2/33: libxau6               #############################################
+     3/33: libxdmcp6             #############################################
+     4/33: libxdmcp6-devel       #############################################
+     5/33: libxau6-devel         #############################################
+     6/33: fpc                   #############################################
+Running on linux
+Write permission in /etc.
+Writing sample configuration file to /etc/fpc.cfg
+Writing sample configuration file to /usr/lib/fpc/2.6.0/ide/text/fp.cfg
+Writing sample configuration file to /usr/lib/fpc/2.6.0/ide/text/fp.ini
+Writing sample configuration file to /etc/fppkg.cfg
+Writing sample configuration file to /etc/fppkg/default
+     7/33: fpc-src               #############################################
+     8/33: libpthread-stubs      #############################################
+removing installed rpms (libxdmcp6-1.1.1-3.mga3.i586.rpm libxau6-1.0.7-2.mga3.i586.rpm libpthread-stubs-0.3-2.mga3.i586.rpm libxdmcp6-devel-1.1.1-3.mga3.i586.rpm fpc-src-2.6.0-3.mga3.i586.rpm fpc-2.6.0-3.mga3.i586.rpm x11-proto-devel-7.6-24.mga3.i586.rpm libxau6-devel-1.0.7-2.mga3.i586.rpm) from /var/cache/urpmi/rpms
+
+
+retrieving rpm files from medium "Core Updates"...
+retrieving http://mirror.yandex.ru/mageia/distrib/3/i586/media/core/updates libxcb-glx0-1.9.1-1.mga3.i586.rpm libxcb-xevie0-1.9.1-1.mga3.i586.rpm libxcb-screensaver0-1.9.1-1.mga3.i586.rpm libxcb-xinerama0-1.9.1-1.mga3.i586.rpm libxcb-res0-1.9.1-1.mga3.i586.rpm libxcb-dri2_0-1.9.1-1.mga3.i586.rpm libxcb-xvmc0-1.9.1-1.mga3.i586.rpm libxcb1-1.9.1-1.mga3.i586.rpm
+'/usr/bin/curl' '-q' '--location-trusted' '-R' '-f' '--disable-epsv' '--connect-timeout' '60' '--anyauth' '--stderr' '-' '-O' 'http://mirror.yandex.ru/mageia/distrib/3/i586/media/core/updates/libxcb-glx0-1.9.1-1.mga3.i586.rpm' '-O' 'http://mirror.yandex.ru/mageia/distrib/3/i586/media/core/updates/libxcb-xevie0-1.9.1-1.mga3.i586.rpm' '-O' 'http://mirror.yandex.ru/mageia/distrib/3/i586/media/core/updates/libxcb-screensaver0-1.9.1-1.mga3.i586.rpm' '-O' 'http://mirror.yandex.ru/mageia/distrib/3/i586/media/core/updates/libxcb-xinerama0-1.9.1-1.mga3.i586.rpm' '-O' 'http://mirror.yandex.ru/mageia/distrib/3/i586/media/core/updates/libxcb-res0-1.9.1-1.mga3.i586.rpm' '-O' 'http://mirror.yandex.ru/mageia/distrib/3/i586/media/core/updates/libxcb-dri2_0-1.9.1-1.mga3.i586.rpm' '-O' 'http://mirror.yandex.ru/mageia/distrib/3/i586/media/core/updates/libxcb-xvmc0-1.9.1-1.mga3.i586.rpm' '-O' 'http://mirror.yandex.ru/mageia/distrib/3/i586/media/core/updates/libxcb1-1.9.1-1.mga3.i586.rpm'
+    http://mirror.yandex.ru/mageia/distrib/3/i586/media/core/updates/libxcb-glx0-1.9.1-1.mga3.i586.rpm
+        0% of 0 completed, ETA = --:--:--, speed = 0                                   100% of 22637 completed, ETA = --:--:--, speed = 368k                                                                                                     http://mirror.yandex.ru/mageia/distrib/3/i586/media/core/updates/libxcb-xevie0-1.9.1-1.mga3.i586.rpm
+        100% of 7929 completed, ETA = --:--:--, speed = 259k                                                                                                      http://mirror.yandex.ru/mageia/distrib/3/i586/media/core/updates/libxcb-screensaver0-1.9.1-1.mga3.i586.rpm
+        100% of 7833 completed, ETA = --:--:--, speed = 244k                                                                                                      http://mirror.yandex.ru/mageia/distrib/3/i586/media/core/updates/libxcb-xinerama0-1.9.1-1.mga3.i586.rpm
+        100% of 8011 completed, ETA = --:--:--, speed = 248k                                                                                                      http://mirror.yandex.ru/mageia/distrib/3/i586/media/core/updates/libxcb-res0-1.9.1-1.mga3.i586.rpm
+        100% of 7865 completed, ETA = --:--:--, speed = 282k                                                                                                      http://mirror.yandex.ru/mageia/distrib/3/i586/media/core/updates/libxcb-dri2_0-1.9.1-1.mga3.i586.rpm
+        100% of 9631 completed, ETA = --:--:--, speed = 334k                                                                                                      http://mirror.yandex.ru/mageia/distrib/3/i586/media/core/updates/libxcb-xvmc0-1.9.1-1.mga3.i586.rpm
+        100% of 8879 completed, ETA = --:--:--, speed = 411k                                                                                                      http://mirror.yandex.ru/mageia/distrib/3/i586/media/core/updates/libxcb1-1.9.1-1.mga3.i586.rpm
+        100% of 39665 completed, ETA = --:--:--, speed = 818k                                                                                                 retrieved http://mirror.yandex.ru/mageia/distrib/3/i586/media/core/updates libxcb-glx0-1.9.1-1.mga3.i586.rpm libxcb-xevie0-1.9.1-1.mga3.i586.rpm libxcb-screensaver0-1.9.1-1.mga3.i586.rpm libxcb-xinerama0-1.9.1-1.mga3.i586.rpm libxcb-res0-1.9.1-1.mga3.i586.rpm libxcb-dri2_0-1.9.1-1.mga3.i586.rpm libxcb-xvmc0-1.9.1-1.mga3.i586.rpm libxcb1-1.9.1-1.mga3.i586.rpm
+...retrieving done
+installing libxcb-glx0-1.9.1-1.mga3.i586.rpm libxcb-xevie0-1.9.1-1.mga3.i586.rpm libxcb-xinerama0-1.9.1-1.mga3.i586.rpm libxcb-screensaver0-1.9.1-1.mga3.i586.rpm libxcb-res0-1.9.1-1.mga3.i586.rpm libxcb-xvmc0-1.9.1-1.mga3.i586.rpm libxcb-dri2_0-1.9.1-1.mga3.i586.rpm libxcb1-1.9.1-1.mga3.i586.rpm from /var/cache/urpmi/rpms
+starting installing packages
+opening rpmdb (root=, write=1)
+created transaction for installing on / (remove=0, install=0, upgrade=8)
+trans: scheduling update of libxcb-glx0-1.9.1-1.mga3.i586 (id=21557, file=/var/cache/urpmi/rpms/libxcb-glx0-1.9.1-1.mga3.i586.rpm)
+trans: scheduling update of libxcb-xevie0-1.9.1-1.mga3.i586 (id=21563, file=/var/cache/urpmi/rpms/libxcb-xevie0-1.9.1-1.mga3.i586.rpm)
+trans: scheduling update of libxcb-xinerama0-1.9.1-1.mga3.i586 (id=21599, file=/var/cache/urpmi/rpms/libxcb-xinerama0-1.9.1-1.mga3.i586.rpm)
+trans: scheduling update of libxcb-screensaver0-1.9.1-1.mga3.i586 (id=21610, file=/var/cache/urpmi/rpms/libxcb-screensaver0-1.9.1-1.mga3.i586.rpm)
+trans: scheduling update of libxcb-res0-1.9.1-1.mga3.i586 (id=21626, file=/var/cache/urpmi/rpms/libxcb-res0-1.9.1-1.mga3.i586.rpm)
+trans: scheduling update of libxcb-xvmc0-1.9.1-1.mga3.i586 (id=21593, file=/var/cache/urpmi/rpms/libxcb-xvmc0-1.9.1-1.mga3.i586.rpm)
+trans: scheduling update of libxcb-dri2_0-1.9.1-1.mga3.i586 (id=21606, file=/var/cache/urpmi/rpms/libxcb-dri2_0-1.9.1-1.mga3.i586.rpm)
+trans: scheduling update of libxcb1-1.9.1-1.mga3.i586 (id=21595, file=/var/cache/urpmi/rpms/libxcb1-1.9.1-1.mga3.i586.rpm)
+Preparing...                     #############################################
+     9/33: libxcb1               #############################################
+    10/33: libxcb-glx0           #############################################
+    11/33: libxcb-xevie0         #############################################
+    12/33: libxcb-xinerama0      #############################################
+    13/33: libxcb-screensaver0   #############################################
+    14/33: libxcb-res0           #############################################
+    15/33: libxcb-xvmc0          #############################################
+    16/33: libxcb-dri2_0         #############################################
+removing installed rpms (libxcb-glx0-1.9.1-1.mga3.i586.rpm libxcb-xevie0-1.9.1-1.mga3.i586.rpm libxcb-xinerama0-1.9.1-1.mga3.i586.rpm libxcb-screensaver0-1.9.1-1.mga3.i586.rpm libxcb-res0-1.9.1-1.mga3.i586.rpm libxcb-xvmc0-1.9.1-1.mga3.i586.rpm libxcb-dri2_0-1.9.1-1.mga3.i586.rpm libxcb1-1.9.1-1.mga3.i586.rpm) from /var/cache/urpmi/rpms
+
+
+retrieving rpm files from medium "Core Updates"...
+retrieving http://mirror.yandex.ru/mageia/distrib/3/i586/media/core/updates libxcb-xprint0-1.9.1-1.mga3.i586.rpm libxcb-randr0-1.9.1-1.mga3.i586.rpm libxcb-xtest0-1.9.1-1.mga3.i586.rpm libxcb-damage0-1.9.1-1.mga3.i586.rpm libx11_6-1.6.0-1.mga3.i586.rpm libxcb-dpms0-1.9.1-1.mga3.i586.rpm libxcb-record0-1.9.1-1.mga3.i586.rpm libxcb-xv0-1.9.1-1.mga3.i586.rpm
+'/usr/bin/curl' '-q' '--location-trusted' '-R' '-f' '--disable-epsv' '--connect-timeout' '60' '--anyauth' '--stderr' '-' '-O' 'http://mirror.yandex.ru/mageia/distrib/3/i586/media/core/updates/libxcb-xprint0-1.9.1-1.mga3.i586.rpm' '-O' 'http://mirror.yandex.ru/mageia/distrib/3/i586/media/core/updates/libxcb-randr0-1.9.1-1.mga3.i586.rpm' '-O' 'http://mirror.yandex.ru/mageia/distrib/3/i586/media/core/updates/libxcb-xtest0-1.9.1-1.mga3.i586.rpm' '-O' 'http://mirror.yandex.ru/mageia/distrib/3/i586/media/core/updates/libxcb-damage0-1.9.1-1.mga3.i586.rpm' '-O' 'http://mirror.yandex.ru/mageia/distrib/3/i586/media/core/updates/libx11_6-1.6.0-1.mga3.i586.rpm' '-O' 'http://mirror.yandex.ru/mageia/distrib/3/i586/media/core/updates/libxcb-dpms0-1.9.1-1.mga3.i586.rpm' '-O' 'http://mirror.yandex.ru/mageia/distrib/3/i586/media/core/updates/libxcb-record0-1.9.1-1.mga3.i586.rpm' '-O' 'http://mirror.yandex.ru/mageia/distrib/3/i586/media/core/updates/libxcb-xv0-1.9.1-1.mga3.i586.rpm'
+    http://mirror.yandex.ru/mageia/distrib/3/i586/media/core/updates/libxcb-xprint0-1.9.1-1.mga3.i586.rpm
+        0% of 0 completed, ETA = --:--:--, speed = 0                                   100% of 12831 completed, ETA = --:--:--, speed = 329k                                                                                                     http://mirror.yandex.ru/mageia/distrib/3/i586/media/core/updates/libxcb-randr0-1.9.1-1.mga3.i586.rpm
+        100% of 15121 completed, ETA = --:--:--, speed = 734k                                                                                                     http://mirror.yandex.ru/mageia/distrib/3/i586/media/core/updates/libxcb-xtest0-1.9.1-1.mga3.i586.rpm
+        100% of 7633 completed, ETA = --:--:--, speed = 236k                                                                                                      http://mirror.yandex.ru/mageia/distrib/3/i586/media/core/updates/libxcb-damage0-1.9.1-1.mga3.i586.rpm
+        100% of 7571 completed, ETA = --:--:--, speed = 214k                                                                                                      http://mirror.yandex.ru/mageia/distrib/3/i586/media/core/updates/libx11_6-1.6.0-1.mga3.i586.rpm
+        100% of 552k completed, ETA = --:--:--, speed = 2706k                                                                                                     http://mirror.yandex.ru/mageia/distrib/3/i586/media/core/updates/libxcb-dpms0-1.9.1-1.mga3.i586.rpm
+        100% of 7763 completed, ETA = --:--:--, speed = 358k                                                                                                      http://mirror.yandex.ru/mageia/distrib/3/i586/media/core/updates/libxcb-record0-1.9.1-1.mga3.i586.rpm
+        100% of 9183 completed, ETA = --:--:--, speed = 217k                                                                                                      http://mirror.yandex.ru/mageia/distrib/3/i586/media/core/updates/libxcb-xv0-1.9.1-1.mga3.i586.rpm
+        100% of 11747 completed, ETA = --:--:--, speed = 496k                                                                                                 retrieved http://mirror.yandex.ru/mageia/distrib/3/i586/media/core/updates libxcb-xprint0-1.9.1-1.mga3.i586.rpm libxcb-randr0-1.9.1-1.mga3.i586.rpm libxcb-xtest0-1.9.1-1.mga3.i586.rpm libxcb-damage0-1.9.1-1.mga3.i586.rpm libx11_6-1.6.0-1.mga3.i586.rpm libxcb-dpms0-1.9.1-1.mga3.i586.rpm libxcb-record0-1.9.1-1.mga3.i586.rpm libxcb-xv0-1.9.1-1.mga3.i586.rpm
+...retrieving done
+installing libxcb-xprint0-1.9.1-1.mga3.i586.rpm libxcb-randr0-1.9.1-1.mga3.i586.rpm libxcb-xtest0-1.9.1-1.mga3.i586.rpm libxcb-damage0-1.9.1-1.mga3.i586.rpm libx11_6-1.6.0-1.mga3.i586.rpm libxcb-dpms0-1.9.1-1.mga3.i586.rpm libxcb-record0-1.9.1-1.mga3.i586.rpm libxcb-xv0-1.9.1-1.mga3.i586.rpm from /var/cache/urpmi/rpms
+starting installing packages
+opening rpmdb (root=, write=1)
+created transaction for installing on / (remove=0, install=0, upgrade=8)
+trans: scheduling update of libxcb-xprint0-1.9.1-1.mga3.i586 (id=21876, file=/var/cache/urpmi/rpms/libxcb-xprint0-1.9.1-1.mga3.i586.rpm)
+trans: scheduling update of libxcb-randr0-1.9.1-1.mga3.i586 (id=21652, file=/var/cache/urpmi/rpms/libxcb-randr0-1.9.1-1.mga3.i586.rpm)
+trans: scheduling update of libxcb-xtest0-1.9.1-1.mga3.i586 (id=21689, file=/var/cache/urpmi/rpms/libxcb-xtest0-1.9.1-1.mga3.i586.rpm)
+trans: scheduling update of libxcb-damage0-1.9.1-1.mga3.i586 (id=21715, file=/var/cache/urpmi/rpms/libxcb-damage0-1.9.1-1.mga3.i586.rpm)
+trans: scheduling update of libx11_6-1.6.0-1.mga3.i586 (id=21686, file=/var/cache/urpmi/rpms/libx11_6-1.6.0-1.mga3.i586.rpm)
+trans: scheduling update of libxcb-dpms0-1.9.1-1.mga3.i586 (id=21704, file=/var/cache/urpmi/rpms/libxcb-dpms0-1.9.1-1.mga3.i586.rpm)
+trans: scheduling update of libxcb-record0-1.9.1-1.mga3.i586 (id=21711, file=/var/cache/urpmi/rpms/libxcb-record0-1.9.1-1.mga3.i586.rpm)
+trans: scheduling update of libxcb-xv0-1.9.1-1.mga3.i586 (id=21627, file=/var/cache/urpmi/rpms/libxcb-xv0-1.9.1-1.mga3.i586.rpm)
+Preparing...                     #############################################
+    17/33: libxcb-xv0            #############################################
+    18/33: libxcb-record0        #############################################
+    19/33: libxcb-dpms0          #############################################
+    20/33: libx11_6              #############################################
+    21/33: libxcb-damage0        #############################################
+    22/33: libxcb-xtest0         #############################################
+    23/33: libxcb-randr0         #############################################
+    24/33: libxcb-xprint0        #############################################
+removing installed rpms (libxcb-xprint0-1.9.1-1.mga3.i586.rpm libxcb-randr0-1.9.1-1.mga3.i586.rpm libxcb-xtest0-1.9.1-1.mga3.i586.rpm libxcb-damage0-1.9.1-1.mga3.i586.rpm libx11_6-1.6.0-1.mga3.i586.rpm libxcb-dpms0-1.9.1-1.mga3.i586.rpm libxcb-record0-1.9.1-1.mga3.i586.rpm libxcb-xv0-1.9.1-1.mga3.i586.rpm) from /var/cache/urpmi/rpms
+
+
+retrieving rpm files from medium "Core Updates"...
+retrieving http://mirror.yandex.ru/mageia/distrib/3/i586/media/core/updates libxcb-shm0-1.9.1-1.mga3.i586.rpm libxcb-composite0-1.9.1-1.mga3.i586.rpm libxcb-sync0-1.9.1-1.mga3.i586.rpm libxcb-render0-1.9.1-1.mga3.i586.rpm libxcb-xf86dri0-1.9.1-1.mga3.i586.rpm libxcb-xfixes0-1.9.1-1.mga3.i586.rpm libxcb-devel-1.9.1-1.mga3.i586.rpm libxcb-shape0-1.9.1-1.mga3.i586.rpm
+'/usr/bin/curl' '-q' '--location-trusted' '-R' '-f' '--disable-epsv' '--connect-timeout' '60' '--anyauth' '--stderr' '-' '-O' 'http://mirror.yandex.ru/mageia/distrib/3/i586/media/core/updates/libxcb-shm0-1.9.1-1.mga3.i586.rpm' '-O' 'http://mirror.yandex.ru/mageia/distrib/3/i586/media/core/updates/libxcb-composite0-1.9.1-1.mga3.i586.rpm' '-O' 'http://mirror.yandex.ru/mageia/distrib/3/i586/media/core/updates/libxcb-sync0-1.9.1-1.mga3.i586.rpm' '-O' 'http://mirror.yandex.ru/mageia/distrib/3/i586/media/core/updates/libxcb-render0-1.9.1-1.mga3.i586.rpm' '-O' 'http://mirror.yandex.ru/mageia/distrib/3/i586/media/core/updates/libxcb-xf86dri0-1.9.1-1.mga3.i586.rpm' '-O' 'http://mirror.yandex.ru/mageia/distrib/3/i586/media/core/updates/libxcb-xfixes0-1.9.1-1.mga3.i586.rpm' '-O' 'http://mirror.yandex.ru/mageia/distrib/3/i586/media/core/updates/libxcb-devel-1.9.1-1.mga3.i586.rpm' '-O' 'http://mirror.yandex.ru/mageia/distrib/3/i586/media/core/updates/libxcb-shape0-1.9.1-1.mga3.i586.rpm'
+    http://mirror.yandex.ru/mageia/distrib/3/i586/media/core/updates/libxcb-shm0-1.9.1-1.mga3.i586.rpm
+        0% of 0 completed, ETA = --:--:--, speed = 0                                   100% of 7873 completed, ETA = --:--:--, speed = 232k                                                                                                      http://mirror.yandex.ru/mageia/distrib/3/i586/media/core/updates/libxcb-composite0-1.9.1-1.mga3.i586.rpm
+        100% of 7857 completed, ETA = --:--:--, speed = 274k                                                                                                      http://mirror.yandex.ru/mageia/distrib/3/i586/media/core/updates/libxcb-sync0-1.9.1-1.mga3.i586.rpm
+        100% of 10107 completed, ETA = --:--:--, speed = 556k                                                                                                     http://mirror.yandex.ru/mageia/distrib/3/i586/media/core/updates/libxcb-render0-1.9.1-1.mga3.i586.rpm
+        100% of 14087 completed, ETA = --:--:--, speed = 337k                                                                                                     http://mirror.yandex.ru/mageia/distrib/3/i586/media/core/updates/libxcb-xf86dri0-1.9.1-1.mga3.i586.rpm
+        100% of 9281 completed, ETA = --:--:--, speed = 505k                                                                                                      http://mirror.yandex.ru/mageia/distrib/3/i586/media/core/updates/libxcb-xfixes0-1.9.1-1.mga3.i586.rpm
+        100% of 11035 completed, ETA = --:--:--, speed = 571k                                                                                                     http://mirror.yandex.ru/mageia/distrib/3/i586/media/core/updates/libxcb-devel-1.9.1-1.mga3.i586.rpm
+        85% of 951k completed, ETA = --:--:--, speed = 3097k                           100% of 951k completed, ETA = --:--:--, speed = 5421k                                                                                                     http://mirror.yandex.ru/mageia/distrib/3/i586/media/core/updates/libxcb-shape0-1.9.1-1.mga3.i586.rpm
+        100% of 8477 completed, ETA = --:--:--, speed = 452k                                                                                                  retrieved http://mirror.yandex.ru/mageia/distrib/3/i586/media/core/updates libxcb-shm0-1.9.1-1.mga3.i586.rpm libxcb-composite0-1.9.1-1.mga3.i586.rpm libxcb-sync0-1.9.1-1.mga3.i586.rpm libxcb-render0-1.9.1-1.mga3.i586.rpm libxcb-xf86dri0-1.9.1-1.mga3.i586.rpm libxcb-xfixes0-1.9.1-1.mga3.i586.rpm libxcb-devel-1.9.1-1.mga3.i586.rpm libxcb-shape0-1.9.1-1.mga3.i586.rpm
+...retrieving done
+installing libxcb-shm0-1.9.1-1.mga3.i586.rpm libxcb-composite0-1.9.1-1.mga3.i586.rpm libxcb-render0-1.9.1-1.mga3.i586.rpm libxcb-sync0-1.9.1-1.mga3.i586.rpm libxcb-xfixes0-1.9.1-1.mga3.i586.rpm libxcb-xf86dri0-1.9.1-1.mga3.i586.rpm libxcb-devel-1.9.1-1.mga3.i586.rpm libxcb-shape0-1.9.1-1.mga3.i586.rpm from /var/cache/urpmi/rpms
+starting installing packages
+opening rpmdb (root=, write=1)
+created transaction for installing on / (remove=0, install=0, upgrade=8)
+trans: scheduling update of libxcb-shm0-1.9.1-1.mga3.i586 (id=21864, file=/var/cache/urpmi/rpms/libxcb-shm0-1.9.1-1.mga3.i586.rpm)
+trans: scheduling update of libxcb-composite0-1.9.1-1.mga3.i586 (id=21838, file=/var/cache/urpmi/rpms/libxcb-composite0-1.9.1-1.mga3.i586.rpm)
+trans: scheduling update of libxcb-render0-1.9.1-1.mga3.i586 (id=21759, file=/var/cache/urpmi/rpms/libxcb-render0-1.9.1-1.mga3.i586.rpm)
+trans: scheduling update of libxcb-sync0-1.9.1-1.mga3.i586 (id=21833, file=/var/cache/urpmi/rpms/libxcb-sync0-1.9.1-1.mga3.i586.rpm)
+trans: scheduling update of libxcb-xfixes0-1.9.1-1.mga3.i586 (id=21777, file=/var/cache/urpmi/rpms/libxcb-xfixes0-1.9.1-1.mga3.i586.rpm)
+trans: scheduling update of libxcb-xf86dri0-1.9.1-1.mga3.i586 (id=21872, file=/var/cache/urpmi/rpms/libxcb-xf86dri0-1.9.1-1.mga3.i586.rpm)
+trans: scheduling update of libxcb-devel-1.9.1-1.mga3.i586 (id=21730, file=/var/cache/urpmi/rpms/libxcb-devel-1.9.1-1.mga3.i586.rpm)
+trans: scheduling update of libxcb-shape0-1.9.1-1.mga3.i586 (id=21787, file=/var/cache/urpmi/rpms/libxcb-shape0-1.9.1-1.mga3.i586.rpm)
+Preparing...                     #############################################
+    25/33: libxcb-shape0         #############################################
+    26/33: libxcb-xf86dri0       #############################################
+    27/33: libxcb-xfixes0        #############################################
+    28/33: libxcb-sync0          #############################################
+    29/33: libxcb-render0        #############################################
+    30/33: libxcb-composite0     #############################################
+    31/33: libxcb-shm0           #############################################
+    32/33: libxcb-devel          #############################################
+removing installed rpms (libxcb-shm0-1.9.1-1.mga3.i586.rpm libxcb-composite0-1.9.1-1.mga3.i586.rpm libxcb-render0-1.9.1-1.mga3.i586.rpm libxcb-sync0-1.9.1-1.mga3.i586.rpm libxcb-xfixes0-1.9.1-1.mga3.i586.rpm libxcb-xf86dri0-1.9.1-1.mga3.i586.rpm libxcb-devel-1.9.1-1.mga3.i586.rpm libxcb-shape0-1.9.1-1.mga3.i586.rpm) from /var/cache/urpmi/rpms
+
+
+retrieving rpm files from medium "Core Updates"...
+retrieving http://mirror.yandex.ru/mageia/distrib/3/i586/media/core/updates libx11_6-devel-1.6.0-1.mga3.i586.rpm
+'/usr/bin/curl' '-q' '--location-trusted' '-R' '-f' '--disable-epsv' '--connect-timeout' '60' '--anyauth' '--stderr' '-' '-O' 'http://mirror.yandex.ru/mageia/distrib/3/i586/media/core/updates/libx11_6-devel-1.6.0-1.mga3.i586.rpm'
+    http://mirror.yandex.ru/mageia/distrib/3/i586/media/core/updates/libx11_6-devel-1.6.0-1.mga3.i586.rpm
+        0% of 0 completed, ETA = --:--:--, speed = 0                                   100% of 604k completed, ETA = --:--:--, speed = 3100k                                                                                                 retrieved http://mirror.yandex.ru/mageia/distrib/3/i586/media/core/updates libx11_6-devel-1.6.0-1.mga3.i586.rpm
+...retrieving done
+installing libx11_6-devel-1.6.0-1.mga3.i586.rpm from /var/cache/urpmi/rpms
+starting installing packages
+opening rpmdb (root=, write=1)
+created transaction for installing on / (remove=0, install=0, upgrade=1)
+trans: scheduling update of libx11_6-devel-1.6.0-1.mga3.i586 (id=21733, file=/var/cache/urpmi/rpms/libx11_6-devel-1.6.0-1.mga3.i586.rpm)
+Preparing...                     #############################################
+    33/33: libx11_6-devel        #############################################
+removing installed rpms (libx11_6-devel-1.6.0-1.mga3.i586.rpm) from /var/cache/urpmi/rpms
+EXITING (pid=14664)
+build...
+warning: user build does not exist - using root
+warning: group build does not exist - using root
+warning: user build does not exist - using root
+warning: group build does not exist - using root
+Installing /home/user/rpmbuild/SRPMS/xroot-0.0.6-3.mga3.mrc.src.rpm
+Executing(%prep): /bin/sh -e /var/tmp/rpm-tmp.DP3avR
++ umask 022
++ cd /home/user/rpmbuild/BUILD
++ '[' 1 -eq 1 ']'
++ '[' 1 -eq 1 ']'
++ '[' 1 -eq 1 ']'
++ cd /home/user/rpmbuild/BUILD
++ rm -rf xroot-src-0.0.6
++ /usr/bin/gzip -dc /home/user/rpmbuild/SOURCES/xroot-src-0.0.6.tar.gz
++ /usr/bin/tar -xf -
++ STATUS=0
++ '[' 0 -ne 0 ']'
++ cd xroot-src-0.0.6
++ /usr/bin/chmod -Rf a+rX,u+w,g-w,o-w .
++ unzip mseide_msegui_src_2_8.zip
+Archive:  mseide_msegui_src_2_8.zip
+   creating: msegui/
+   creating: msegui/lib/
+   creating: msegui/lib/common/
+   creating: msegui/lib/common/db/
+  inflating: msegui/lib/common/db/ibase60.inc  
+  inflating: msegui/lib/common/db/msesqlite3conn.pas  
+  inflating: msegui/lib/common/db/msedb.pas  
+  inflating: msegui/lib/common/db/msesqlquery.pas  
+  inflating: msegui/lib/common/db/msedatabase.pas  
+  inflating: msegui/lib/common/db/msedbgraphics.pas  
+  inflating: msegui/lib/common/db/mibconnection.pas  
+  inflating: msegui/lib/common/db/msemysqlconn.pas  
+  inflating: msegui/lib/common/db/ibase60dyn.pp  
+  inflating: msegui/lib/common/db/mmysql4conn.pas  
+  inflating: msegui/lib/common/db/mmysql41conn.pas  
+  inflating: msegui/lib/common/db/mmysql41conn.rst  
+  inflating: msegui/lib/common/db/msememds.pas  
+  inflating: msegui/lib/common/db/msedbdialog.pas  
+  inflating: msegui/lib/common/db/sqlite3dyn.pas  
+  inflating: msegui/lib/common/db/msemysql40conn.pas  
+  inflating: msegui/lib/common/db/msesqlresult.pas  
+  inflating: msegui/lib/common/db/msepqconnection.pas  
+  inflating: msegui/lib/common/db/msesdfdata.pas  
+  inflating: msegui/lib/common/db/mselocaldataset.pas  
+  inflating: msegui/lib/common/db/msesqlite3ds.pas  
+  inflating: msegui/lib/common/db/msedbf.pas  
+  inflating: msegui/lib/common/db/ibase60.pp  
+  inflating: msegui/lib/common/db/msebufdataset.pas  
+  inflating: msegui/lib/common/db/msezeos.pas  
+  inflating: msegui/lib/common/db/msedbdispwidgets.pas  
+  inflating: msegui/lib/common/db/msemysql50conn.pas  
+  inflating: msegui/lib/common/db/mseibconnection.pas  
+  inflating: msegui/lib/common/db/mysqldyn.pp  
+  inflating: msegui/lib/common/db/mpqconnection.pp  
+  inflating: msegui/lib/common/db/mmysql40conn.pas  
+  inflating: msegui/lib/common/db/mmysql40conn.rst  
+  inflating: msegui/lib/common/db/mseodbcconn.pas  
+  inflating: msegui/lib/common/db/msedbcalendardatetimeedit.pas  
+  inflating: msegui/lib/common/db/msedbevents.pas  
+  inflating: msegui/lib/common/db/mysqldyn.rst  
+  inflating: msegui/lib/common/db/memds.rst  
+  inflating: msegui/lib/common/db/postgres3dyn.pp  
+  inflating: msegui/lib/common/db/odbcsqldyn.pas  
+  inflating: msegui/lib/common/db/ibase60dyn.rst  
+  inflating: msegui/lib/common/db/msesqldb.pas  
+  inflating: msegui/lib/common/db/modbcconn.pas  
+  inflating: msegui/lib/common/db/msemysql41conn.pas  
+  inflating: msegui/lib/common/db/mmysql50conn.pas  
+  inflating: msegui/lib/common/db/mmysql50conn.rst  
+  inflating: msegui/lib/common/db/mmysqlconn.inc  
+  inflating: msegui/lib/common/db/mmysqlconn.pas  
+  inflating: msegui/lib/common/db/mmysqlconn.rst  
+  inflating: msegui/lib/common/db/mpqconnection.rst  
+  inflating: msegui/lib/common/db/msedblookup.pas  
+  inflating: msegui/lib/common/db/msedbedit.pas  
+  inflating: msegui/lib/common/db/msqldb.pas  
+  inflating: msegui/lib/common/db/mselookupbuffer.pas  
+  inflating: msegui/lib/common/db/memds.pp  
+   creating: msegui/lib/common/ifi/
+  inflating: msegui/lib/common/ifi/msecryptstream.pas  
+  inflating: msegui/lib/common/ifi/mseifidbgui.pas  
+  inflating: msegui/lib/common/ifi/mopenssl.pas  
+  inflating: msegui/lib/common/ifi/msecryptio.pas  
+  inflating: msegui/lib/common/ifi/mseifi.pas  
+  inflating: msegui/lib/common/ifi/msesockets.pas  
+  inflating: msegui/lib/common/ifi/mseifidbcomp.pas  
+  inflating: msegui/lib/common/ifi/mseifilink.pas  
+  inflating: msegui/lib/common/ifi/mseifigui.pas  
+  inflating: msegui/lib/common/ifi/mseificompglob.pas  
+  inflating: msegui/lib/common/ifi/mseifiglob.pas  
+  inflating: msegui/lib/common/ifi/mseificomp.pas  
+  inflating: msegui/lib/common/ifi/msessl.pas  
+  inflating: msegui/lib/common/ifi/mseifids.pas  
+   creating: msegui/lib/common/i18n/
+  inflating: msegui/lib/common/i18n/msei18nglob.pas  
+  inflating: msegui/lib/common/i18n/mseucs2toru.pas  
+  inflating: msegui/lib/common/i18n/mselanglink.pas  
+  inflating: msegui/lib/common/i18n/msei18nutils.pas  
+   creating: msegui/lib/common/math/
+  inflating: msegui/lib/common/math/msesignoise.pas  
+  inflating: msegui/lib/common/math/msesigfft.pas  
+  inflating: msegui/lib/common/math/msesignal.pas  
+  inflating: msegui/lib/common/math/msesigfftgui.pas  
+  inflating: msegui/lib/common/math/msesiggui.pas  
+  inflating: msegui/lib/common/math/msesigaudio.pas  
+  inflating: msegui/lib/common/math/msesigmidi.pas  
+  inflating: msegui/lib/common/math/msefftw.pas  
+  inflating: msegui/lib/common/math/msefft.pas  
+  inflating: msegui/lib/common/math/msefilter.pas  
+   creating: msegui/lib/common/editwidgets/
+  inflating: msegui/lib/common/editwidgets/msedatanodes.pas  
+  inflating: msegui/lib/common/editwidgets/msedataedits.pas  
+  inflating: msegui/lib/common/editwidgets/msetextedit.pas  
+  inflating: msegui/lib/common/editwidgets/msegraphedits.pas  
+  inflating: msegui/lib/common/editwidgets/msefoldedit.pas  
+  inflating: msegui/lib/common/editwidgets/mseterminal.pas  
+  inflating: msegui/lib/common/editwidgets/msewidgetgrid.pas  
+  inflating: msegui/lib/common/editwidgets/msedataimage.pas  
+  inflating: msegui/lib/common/editwidgets/mseedit.pas  
+  inflating: msegui/lib/common/editwidgets/msedropdownlist.pas  
+  inflating: msegui/lib/common/editwidgets/mselistbrowser.pas  
+  inflating: msegui/lib/common/editwidgets/mserealsumedit.pas  
+  inflating: msegui/lib/common/editwidgets/msestringlistedit.pas  
+  inflating: msegui/lib/common/editwidgets/msecalendardatetimeedit.pas  
+   creating: msegui/lib/common/dialogs/
+  inflating: msegui/lib/common/dialogs/msefiledialogres_mfm.pas  
+  inflating: msegui/lib/common/dialogs/mseshortcutdialog.mfm  
+  inflating: msegui/lib/common/dialogs/mseshortcutdialog.pas  
+  inflating: msegui/lib/common/dialogs/mseintegerenter_mfm.pas  
+  inflating: msegui/lib/common/dialogs/msememodialog.mfm  
+  inflating: msegui/lib/common/dialogs/msememodialog.pas  
+  inflating: msegui/lib/common/dialogs/msememodialog_mfm.pas  
+  inflating: msegui/lib/common/dialogs/mseintegerenter.mfm  
+  inflating: msegui/lib/common/dialogs/mseintegerenter.pas  
+  inflating: msegui/lib/common/dialogs/msefiledialog_mfm.pas  
+  inflating: msegui/lib/common/dialogs/mserealenter.mfm  
+  inflating: msegui/lib/common/dialogs/mserealenter.pas  
+  inflating: msegui/lib/common/dialogs/msepopupcalendar_mfm.pas  
+  inflating: msegui/lib/common/dialogs/msefiledialogres.mfm  
+  inflating: msegui/lib/common/dialogs/msefiledialogres.pas  
+  inflating: msegui/lib/common/dialogs/msefiledialog.mfm  
+  inflating: msegui/lib/common/dialogs/msefiledialog.pas  
+  inflating: msegui/lib/common/dialogs/msedirtree_mfm.pas  
+  inflating: msegui/lib/common/dialogs/msedirtree.mfm  
+  inflating: msegui/lib/common/dialogs/msedirtree.pas  
+  inflating: msegui/lib/common/dialogs/msecolordialog.mfm  
+  inflating: msegui/lib/common/dialogs/msecolordialog.pas  
+  inflating: msegui/lib/common/dialogs/msestringenter.mfm  
+  inflating: msegui/lib/common/dialogs/msestringenter.pas  
+  inflating: msegui/lib/common/dialogs/mserealenter_mfm.pas  
+  inflating: msegui/lib/common/dialogs/msecolordialog_mfm.pas  
+  inflating: msegui/lib/common/dialogs/msestringenter_mfm.pas  
+  inflating: msegui/lib/common/dialogs/msepopupcalendar.mfm  
+  inflating: msegui/lib/common/dialogs/msepopupcalendar.pas  
+  inflating: msegui/lib/common/dialogs/msedialog.pas  
+  inflating: msegui/lib/common/dialogs/mseshortcutdialog_mfm.pas  
+   creating: msegui/lib/common/audio/
+  inflating: msegui/lib/common/audio/msemidi.pas  
+  inflating: msegui/lib/common/audio/msepulse.pas  
+  inflating: msegui/lib/common/audio/msepulsesimple.pas  
+  inflating: msegui/lib/common/audio/msepulseglob.pas  
+  inflating: msegui/lib/common/audio/mseaudio.pas  
+   creating: msegui/lib/common/image/
+  inflating: msegui/lib/common/image/mseformattgaread.pas  
+  inflating: msegui/lib/common/image/mseformatxpmread.pas  
+  inflating: msegui/lib/common/image/msegraphicstream.pas  
+  inflating: msegui/lib/common/image/mseformatpngread.pas  
+  inflating: msegui/lib/common/image/mseformatjpgread.pas  
+  inflating: msegui/lib/common/image/mseformatbmpicoread.pas  
+  inflating: msegui/lib/common/image/mseformatpnmread.pas  
+  inflating: msegui/lib/common/image/mseformatpngwrite.pas  
+  inflating: msegui/lib/common/image/mseformatjpgwrite.pas  
+   creating: msegui/lib/common/graphics/
+  inflating: msegui/lib/common/graphics/msegraphutils.pas  
+  inflating: msegui/lib/common/graphics/msefcfontselect.pas  
+  inflating: msegui/lib/common/graphics/msegdi32gdi.pas  
+  inflating: msegui/lib/common/graphics/msefontconfig.pas  
+  inflating: msegui/lib/common/graphics/msegraphics.pas  
+  inflating: msegui/lib/common/graphics/msegenericgdi.pas  
+  inflating: msegui/lib/common/graphics/msefreetype.pas  
+  inflating: msegui/lib/common/graphics/mseftfontcache.pas  
+  inflating: msegui/lib/common/graphics/msebitmap.pas  
+  inflating: msegui/lib/common/graphics/msedrawtext.pas  
+  inflating: msegui/lib/common/graphics/msefontcache.pas  
+  inflating: msegui/lib/common/graphics/msex11gdi.pas  
+  inflating: msegui/lib/common/graphics/msefont.pas  
+  inflating: msegui/lib/common/COPYING.MSE  
+   creating: msegui/lib/common/regcomponents/
+  inflating: msegui/lib/common/regcomponents/regeditwidgets_bmp.pas  
+  inflating: msegui/lib/common/regcomponents/regkernel_bmp.pas  
+  inflating: msegui/lib/common/regcomponents/regsysutils_bmp.pas  
+  inflating: msegui/lib/common/regcomponents/regmath_bmp.pas  
+  inflating: msegui/lib/common/regcomponents/regdeprecated.pas  
+  inflating: msegui/lib/common/regcomponents/regreport.pas  
+  inflating: msegui/lib/common/regcomponents/regglob.pas  
+  inflating: msegui/lib/common/regcomponents/regkernel.pas  
+  inflating: msegui/lib/common/regcomponents/regmath.pas  
+  inflating: msegui/lib/common/regcomponents/regwidgets.pas  
+  inflating: msegui/lib/common/regcomponents/regzeoslib_bmp.pas  
+  inflating: msegui/lib/common/regcomponents/regexperimental.pas  
+  inflating: msegui/lib/common/regcomponents/regifirem.pas  
+  inflating: msegui/lib/common/regcomponents/regprinter.pas  
+  inflating: msegui/lib/common/regcomponents/regserialcomm.pas  
+  inflating: msegui/lib/common/regcomponents/regreport_bmp.pas  
+  inflating: msegui/lib/common/regcomponents/designer_bmp.pas  
+  inflating: msegui/lib/common/regcomponents/regdesignutils.pas  
+  inflating: msegui/lib/common/regcomponents/regdb_bmp.pas  
+  inflating: msegui/lib/common/regcomponents/regeditwidgets.pas  
+  inflating: msegui/lib/common/regcomponents/regdesignutils_bmp.pas  
+  inflating: msegui/lib/common/regcomponents/regpascalscript.pas  
+  inflating: msegui/lib/common/regcomponents/regwidgets_bmp.pas  
+  inflating: msegui/lib/common/regcomponents/regifi.pas  
+  inflating: msegui/lib/common/regcomponents/regifirem_bmp.pas  
+  inflating: msegui/lib/common/regcomponents/regifi_bmp.pas  
+  inflating: msegui/lib/common/regcomponents/regdb.pas  
+  inflating: msegui/lib/common/regcomponents/regsysutils.pas  
+  inflating: msegui/lib/common/regcomponents/regdialogs_bmp.pas  
+  inflating: msegui/lib/common/regcomponents/regunitgroups.pas  
+  inflating: msegui/lib/common/regcomponents/regzeoslib.pas  
+  inflating: msegui/lib/common/regcomponents/regmm.pas  
+  inflating: msegui/lib/common/regcomponents/regserialcomm_bmp.pas  
+  inflating: msegui/lib/common/regcomponents/regdeprecated_bmp.pas  
+  inflating: msegui/lib/common/regcomponents/regdialogs.pas  
+   creating: msegui/lib/common/delphicompatibility/
+  inflating: msegui/lib/common/delphicompatibility/winsock2_del.pas  
+   creating: msegui/lib/common/pascalscript/
+  inflating: msegui/lib/common/pascalscript/msepascalscript.pas  
+  inflating: msegui/lib/common/pascalscript/msepascimport.pas  
+  inflating: msegui/lib/common/pascalscript/msepascimportmsegui.pas  
+   creating: msegui/lib/common/designutils/
+  inflating: msegui/lib/common/designutils/msesettings.mfm  
+  inflating: msegui/lib/common/designutils/msesettings.pas  
+  inflating: msegui/lib/common/designutils/msesyntaxedit.pas  
+  inflating: msegui/lib/common/designutils/msedbfieldeditor.mfm  
+  inflating: msegui/lib/common/designutils/msedbfieldeditor.pas  
+  inflating: msegui/lib/common/designutils/msedoublestringlisteditor_mfm.pas  
+  inflating: msegui/lib/common/designutils/msecomponenteditors.pas  
+  inflating: msegui/lib/common/designutils/msestringlisteditor_mfm.pas  
+  inflating: msegui/lib/common/designutils/mseresourcetools.pas  
+  inflating: msegui/lib/common/designutils/mseificlienteditor.mfm  
+  inflating: msegui/lib/common/designutils/mseificlienteditor.pas  
+  inflating: msegui/lib/common/designutils/mseimagelisteditor_mfm.pas  
+  inflating: msegui/lib/common/designutils/msestringintlisteditor_mfm.pas  
+  inflating: msegui/lib/common/designutils/msestringintlisteditor.mfm  
+  inflating: msegui/lib/common/designutils/msestringintlisteditor.pas  
+  inflating: msegui/lib/common/designutils/mseintegerlisteditor_mfm.pas  
+  inflating: msegui/lib/common/designutils/mseformdatatools.pas  
+  inflating: msegui/lib/common/designutils/msetexteditor_mfm.pas  
+  inflating: msegui/lib/common/designutils/msesettings_mfm.pas  
+  inflating: msegui/lib/common/designutils/mseintegerlisteditor.mfm  
+  inflating: msegui/lib/common/designutils/mseintegerlisteditor.pas  
+  inflating: msegui/lib/common/designutils/mseparser.pas  
+  inflating: msegui/lib/common/designutils/msereallisteditor.mfm  
+  inflating: msegui/lib/common/designutils/msereallisteditor.pas  
+  inflating: msegui/lib/common/designutils/msegdbutils.pas  
+  inflating: msegui/lib/common/designutils/msedoublereallisteditor.mfm  
+  inflating: msegui/lib/common/designutils/msedoublereallisteditor.pas  
+  inflating: msegui/lib/common/designutils/msefadeedit_mfm.pas  
+  inflating: msegui/lib/common/designutils/msedoublestringlisteditor.mfm  
+  inflating: msegui/lib/common/designutils/msedoublestringlisteditor.pas  
+  inflating: msegui/lib/common/designutils/mseificomponenteditors.pas  
+  inflating: msegui/lib/common/designutils/mseificlienteditor_mfm.pas  
+  inflating: msegui/lib/common/designutils/msefadeedit.mfm  
+  inflating: msegui/lib/common/designutils/msefadeedit.pas  
+  inflating: msegui/lib/common/designutils/msereallisteditor_mfm.pas  
+  inflating: msegui/lib/common/designutils/msedbfieldeditor_mfm.pas  
+  inflating: msegui/lib/common/designutils/msestringlisteditor.mfm  
+  inflating: msegui/lib/common/designutils/msestringlisteditor.pas  
+  inflating: msegui/lib/common/designutils/mseimagelisteditor.mfm  
+  inflating: msegui/lib/common/designutils/mseimagelisteditor.pas  
+  inflating: msegui/lib/common/designutils/mseskindesign.pas  
+  inflating: msegui/lib/common/designutils/msetexteditor.mfm  
+  inflating: msegui/lib/common/designutils/msetexteditor.pas  
+  inflating: msegui/lib/common/designutils/msesyntaxpainter.pas  
+  inflating: msegui/lib/common/designutils/msedoublereallisteditor_mfm.pas  
+  inflating: msegui/lib/common/designutils/msedesignintf.pas  
+  inflating: msegui/lib/common/designutils/msepropertyeditors.pas  
+   creating: msegui/lib/common/kernel/
+  inflating: msegui/lib/common/kernel/msestreaming.pas  
+  inflating: msegui/lib/common/kernel/msedrag.pas  
+  inflating: msegui/lib/common/kernel/msesys.pas  
+  inflating: msegui/lib/common/kernel/mseuniintf.inc  
+  inflating: msegui/lib/common/kernel/mseconsts_ru.pas  
+  inflating: msegui/lib/common/kernel/msedatamodules.pas  
+  inflating: msegui/lib/common/kernel/mseglob.pas  
+  inflating: msegui/lib/common/kernel/mseact.pas  
+  inflating: msegui/lib/common/kernel/mseguiglob.pas  
+  inflating: msegui/lib/common/kernel/mseactions.pas  
+  inflating: msegui/lib/common/kernel/msenogui.pas  
+  inflating: msegui/lib/common/kernel/mseconsts_zh.pas  
+  inflating: msegui/lib/common/kernel/msesysintf.inc  
+  inflating: msegui/lib/common/kernel/mseskin.pas  
+  inflating: msegui/lib/common/kernel/msehash.pas  
+  inflating: msegui/lib/common/kernel/msestrings.pas  
+  inflating: msegui/lib/common/kernel/msegui.pas  
+   creating: msegui/lib/common/kernel/i386-linux/
+  inflating: msegui/lib/common/kernel/i386-linux/mseuniintf.pas  
+  inflating: msegui/lib/common/kernel/i386-linux/msesysintf.pas  
+  inflating: msegui/lib/common/kernel/i386-linux/cwstring.pp  
+  inflating: msegui/lib/common/kernel/i386-linux/msesocketintf.pas  
+  inflating: msegui/lib/common/kernel/i386-linux/sm.pas  
+  inflating: msegui/lib/common/kernel/i386-linux/mseguiintf.pas  
+  inflating: msegui/lib/common/kernel/i386-linux/xrender.pas  
+  inflating: msegui/lib/common/kernel/i386-linux/ice.pas  
+  inflating: msegui/lib/common/kernel/i386-linux/msesysintf1.pas  
+  inflating: msegui/lib/common/kernel/i386-linux/msesetlocale.pas  
+  inflating: msegui/lib/common/kernel/i386-linux/msenoguiintf.pas  
+  inflating: msegui/lib/common/kernel/i386-linux/mseprocmonitor.pas  
+  inflating: msegui/lib/common/kernel/i386-linux/xft.pas  
+   creating: msegui/lib/common/kernel/i386-win32/
+  inflating: msegui/lib/common/kernel/i386-win32/mseuniintf.pas  
+  inflating: msegui/lib/common/kernel/i386-win32/msesysintf.pas  
+  inflating: msegui/lib/common/kernel/i386-win32/msesystimer.pas  
+  inflating: msegui/lib/common/kernel/i386-win32/msewinglob.pas  
+  inflating: msegui/lib/common/kernel/i386-win32/msesocketintf.pas  
+  inflating: msegui/lib/common/kernel/i386-win32/mseguiintf.pas  
+  inflating: msegui/lib/common/kernel/i386-win32/msesysintf1.pas  
+  inflating: msegui/lib/common/kernel/i386-win32/msenoguiintf.pas  
+  inflating: msegui/lib/common/kernel/i386-win32/mseprocmonitor.pas  
+  inflating: msegui/lib/common/kernel/mseapplication.pas  
+  inflating: msegui/lib/common/kernel/msedatalist.pas  
+  inflating: msegui/lib/common/kernel/msearrayprops.pas  
+  inflating: msegui/lib/common/kernel/msepointer.pas  
+  inflating: msegui/lib/common/kernel/msesystypes.pas  
+  inflating: msegui/lib/common/kernel/msethread.pas  
+  inflating: msegui/lib/common/kernel/mserttistat.pas  
+  inflating: msegui/lib/common/kernel/msetmpmodules.pas  
+  inflating: msegui/lib/common/kernel/msearrayutils.pas  
+  inflating: msegui/lib/common/kernel/msestrings.pas.THEIR.4084.pas  
+  inflating: msegui/lib/common/kernel/msestat.pas  
+  inflating: msegui/lib/common/kernel/mserichstring.pas  
+  inflating: msegui/lib/common/kernel/msekeyboard.pas  
+  inflating: msegui/lib/common/kernel/mseguithreadcomp.pas  
+  inflating: msegui/lib/common/kernel/mseunicodeps.pas  
+  inflating: msegui/lib/common/kernel/mseconsts_uzcyr.pas  
+  inflating: msegui/lib/common/kernel/mseclasses.pas  
+  inflating: msegui/lib/common/kernel/mselibc.pas  
+  inflating: msegui/lib/common/kernel/mseshapes.pas  
+  inflating: msegui/lib/common/kernel/msesonames.pas  
+  inflating: msegui/lib/common/kernel/msefloattostr.pas  
+  inflating: msegui/lib/common/kernel/msereal.pas  
+  inflating: msegui/lib/common/kernel/msescrollbar.pas  
+  inflating: msegui/lib/common/kernel/msesocketintf.inc  
+  inflating: msegui/lib/common/kernel/msemenus.pas  
+  inflating: msegui/lib/common/kernel/msethreadcomp.pas  
+  inflating: msegui/lib/common/kernel/msefileutils.pas  
+  inflating: msegui/lib/common/kernel/msestatfile.pas  
+  inflating: msegui/lib/common/kernel/kernel_bmp.pas  
+  inflating: msegui/lib/common/kernel/msebucketlist.pas  
+  inflating: msegui/lib/common/kernel/mseguiintf.inc  
+  inflating: msegui/lib/common/kernel/mseformatstr.pas  
+  inflating: msegui/lib/common/kernel/msestockobjects_mfm.pas  
+  inflating: msegui/lib/common/kernel/msetimer.pas  
+  inflating: msegui/lib/common/kernel/msesumlist.pas  
+  inflating: msegui/lib/common/kernel/mselist.pas  
+  inflating: msegui/lib/common/kernel/msebits.pas  
+  inflating: msegui/lib/common/kernel/msectypes.pas  
+  inflating: msegui/lib/common/kernel/msesysintf1.inc  
+  inflating: msegui/lib/common/kernel/msedate.pas  
+  inflating: msegui/lib/common/kernel/mseconsts.pas  
+  inflating: msegui/lib/common/kernel/msetypes.pas  
+  inflating: msegui/lib/common/kernel/msebintree.pas  
+  inflating: msegui/lib/common/kernel/msestockobjects.mfm  
+  inflating: msegui/lib/common/kernel/msestockobjects.pas  
+  inflating: msegui/lib/common/kernel/mseconsts_de.pas  
+  inflating: msegui/lib/common/kernel/msestrings.pas.BASE.4084.pas  
+  inflating: msegui/lib/common/kernel/msepipestream.pas  
+  inflating: msegui/lib/common/kernel/mseconsts_es.pas  
+  inflating: msegui/lib/common/kernel/mseerr.pas  
+  inflating: msegui/lib/common/kernel/mseobjecttext.pas  
+  inflating: msegui/lib/common/kernel/msenoguiintf.inc  
+  inflating: msegui/lib/common/kernel/mseconsts_id.pas  
+  inflating: msegui/lib/common/kernel/mseevent.pas  
+  inflating: msegui/lib/common/kernel/msesysutils.pas  
+  inflating: msegui/lib/common/kernel/msevariants.pas  
+  inflating: msegui/lib/common/kernel/mseprocmonitor.inc  
+  inflating: msegui/lib/common/kernel/msedynload.pas  
+  inflating: msegui/lib/common/kernel/msestream.pas  
+   creating: msegui/lib/common/opengl/
+  inflating: msegui/lib/common/opengl/msegl.pas  
+  inflating: msegui/lib/common/opengl/mseglu.pas  
+  inflating: msegui/lib/common/opengl/mseglx.pas  
+  inflating: msegui/lib/common/opengl/mseglext.pas  
+  inflating: msegui/lib/common/opengl/mseopengl.pas  
+  inflating: msegui/lib/common/opengl/mseopenglgdiinit.pas  
+  inflating: msegui/lib/common/opengl/mseftgl.pas  
+  inflating: msegui/lib/common/opengl/mseopenglcanvaswidget.pas  
+  inflating: msegui/lib/common/opengl/mseopenglgdi.pas  
+  inflating: msegui/lib/common/opengl/mseglextglob.pas  
+  inflating: msegui/lib/common/opengl/mseopenglwidget.pas  
+   creating: msegui/lib/common/serialcomm/
+  inflating: msegui/lib/common/serialcomm/msesercomm.pas  
+  inflating: msegui/lib/common/serialcomm/msecommutils.pas  
+  inflating: msegui/lib/common/serialcomm/msecommtimer.pas  
+  inflating: msegui/lib/common/serialcomm/msecommport.pas  
+   creating: msegui/lib/common/report/
+  inflating: msegui/lib/common/report/msereport.pas  
+   creating: msegui/lib/common/unicode/
+  inflating: msegui/lib/common/unicode/mseunicode.pas  
+   creating: msegui/lib/common/sysutils/
+  inflating: msegui/lib/common/sysutils/mseprocutils.pas  
+  inflating: msegui/lib/common/sysutils/msesysenv.pas  
+  inflating: msegui/lib/common/sysutils/mseinputcontroller.pas  
+  inflating: msegui/lib/common/sysutils/msefilechange.pas  
+  inflating: msegui/lib/common/sysutils/mseprocess.pas  
+  inflating: msegui/lib/common/sysutils/mseprocmonitorcomp.pas  
+   creating: msegui/lib/common/widgets/
+  inflating: msegui/lib/common/widgets/mseobjectpicker.pas  
+  inflating: msegui/lib/common/widgets/mseeditglob.pas  
+  inflating: msegui/lib/common/widgets/mseimage.pas  
+  inflating: msegui/lib/common/widgets/msesplitter.pas  
+  inflating: msegui/lib/common/widgets/mseforms.pas  
+  inflating: msegui/lib/common/widgets/msegrids.pas  
+  inflating: msegui/lib/common/widgets/msetabs.pas  
+  inflating: msegui/lib/common/widgets/msemenuwidgets.pas  
+  inflating: msegui/lib/common/widgets/msegridsglob.pas  
+  inflating: msegui/lib/common/widgets/msedispwidgets.pas  
+  inflating: msegui/lib/common/widgets/msebarcode.pas  
+  inflating: msegui/lib/common/widgets/msesimplewidgets.pas  
+  inflating: msegui/lib/common/widgets/msechartedit.pas  
+  inflating: msegui/lib/common/widgets/msewindowwidget.pas  
+  inflating: msegui/lib/common/widgets/msedock.pas  
+  inflating: msegui/lib/common/widgets/msetabsglob.pas  
+  inflating: msegui/lib/common/widgets/msedockpanelform.pas  
+  inflating: msegui/lib/common/widgets/msedial.pas  
+  inflating: msegui/lib/common/widgets/mseinplaceedit.pas  
+  inflating: msegui/lib/common/widgets/msetoolbar.pas  
+  inflating: msegui/lib/common/widgets/msechart.pas  
+  inflating: msegui/lib/common/widgets/msepolygon.pas  
+  inflating: msegui/lib/common/widgets/msepickwidget.pas  
+  inflating: msegui/lib/common/widgets/msewidgets.pas  
+  inflating: msegui/lib/common/widgets/msetraywidget.pas  
+  inflating: msegui/lib/common/COPYING  
+   creating: msegui/lib/common/printer/
+  inflating: msegui/lib/common/printer/mseprinter.pas  
+  inflating: msegui/lib/common/printer/msepostscriptprinter.pas  
+  inflating: msegui/lib/common/printer/msegdiprint.pas  
+   creating: msegui/apps/
+   creating: msegui/apps/ide/
+  inflating: msegui/apps/ide/storedcomponentinfodialog.mfm  
+  inflating: msegui/apps/ide/storedcomponentinfodialog.pas  
+  inflating: msegui/apps/ide/main_mfm.pas  
+  inflating: msegui/apps/ide/stackform_mfm.pas  
+  inflating: msegui/apps/ide/objectinspector_mfm.pas  
+  inflating: msegui/apps/ide/memoryform_mfm.pas  
+  inflating: msegui/apps/ide/msedesigner.pas  
+  inflating: msegui/apps/ide/cpuform.mfm  
+  inflating: msegui/apps/ide/cpuform.pas  
+  inflating: msegui/apps/ide/cpux86_64form_mfm.pas  
+  inflating: msegui/apps/ide/finddialogform.mfm  
+  inflating: msegui/apps/ide/finddialogform.pas  
+  inflating: msegui/apps/ide/debuggerform.mfm  
+  inflating: msegui/apps/ide/debuggerform.pas  
+  inflating: msegui/apps/ide/symbolform.mfm  
+  inflating: msegui/apps/ide/symbolform.pas  
+  inflating: msegui/apps/ide/mseide.rc  
+  inflating: msegui/apps/ide/printform_mfm.pas  
+  inflating: msegui/apps/ide/programparametersform.mfm  
+  inflating: msegui/apps/ide/programparametersform.pas  
+  inflating: msegui/apps/ide/componentpaletteform.mfm  
+  inflating: msegui/apps/ide/componentpaletteform.pas  
+  inflating: msegui/apps/ide/setcreateorderform.mfm  
+  inflating: msegui/apps/ide/setcreateorderform.pas  
+  inflating: msegui/apps/ide/panelform_mfm.pas  
+  inflating: msegui/apps/ide/actionsmodule_mfm.pas  
+  inflating: msegui/apps/ide/msecodetemplates.pas  
+  inflating: msegui/apps/ide/cpuarmform.mfm  
+  inflating: msegui/apps/ide/cpuarmform.pas  
+   creating: msegui/apps/ide/syntaxdefs/
+  inflating: msegui/apps/ide/syntaxdefs/ipf.sdef  
+  inflating: msegui/apps/ide/syntaxdefs/sql.sdef  
+  inflating: msegui/apps/ide/syntaxdefs/ipf2.sdef  
+  inflating: msegui/apps/ide/syntaxdefs/pascal2.sdef  
+  inflating: msegui/apps/ide/syntaxdefs/cpp.sdef  
+  inflating: msegui/apps/ide/syntaxdefs/pascal.sdef  
+  inflating: msegui/apps/ide/syntaxdefs/objecttext.sdef  
+  inflating: msegui/apps/ide/reportdesigner_mfm.pas  
+  inflating: msegui/apps/ide/selectsubmoduledialogform.mfm  
+  inflating: msegui/apps/ide/selectsubmoduledialogform.pas  
+  inflating: msegui/apps/ide/cpui386form_mfm.pas  
+  inflating: msegui/apps/ide/msecomptree.mfm  
+  inflating: msegui/apps/ide/msecomptree.pas  
+  inflating: msegui/apps/ide/watchform.mfm  
+  inflating: msegui/apps/ide/watchform.pas  
+  inflating: msegui/apps/ide/formdesigner_mfm.pas  
+  inflating: msegui/apps/ide/debuggerform_mfm.pas  
+  inflating: msegui/apps/ide/mseide.pas  
+  inflating: msegui/apps/ide/mseide.prj  
+  inflating: msegui/apps/ide/mseide.res  
+  inflating: msegui/apps/ide/mseparamentryform_mfm.pas  
+  inflating: msegui/apps/ide/targetconsole_mfm.pas  
+  inflating: msegui/apps/ide/selectsubmoduledialogform_mfm.pas  
+  inflating: msegui/apps/ide/sourceupdate.pas  
+  inflating: msegui/apps/ide/selectsubformdialogform.pas  
+  inflating: msegui/apps/ide/selectsubformdialogform_mfm.pas  
+  inflating: msegui/apps/ide/cpuavr32form_mfm.pas  
+  inflating: msegui/apps/ide/main.mfm  
+  inflating: msegui/apps/ide/main.pas  
+  inflating: msegui/apps/ide/settaborderform_mfm.pas  
+  inflating: msegui/apps/ide/replacedialogform.mfm  
+  inflating: msegui/apps/ide/replacedialogform.pas  
+  inflating: msegui/apps/ide/reportdesigner.mfm  
+  inflating: msegui/apps/ide/reportdesigner.pas  
+  inflating: msegui/apps/ide/make.pas  
+  inflating: msegui/apps/ide/projecttreeform.mfm  
+  inflating: msegui/apps/ide/projecttreeform.pas  
+  inflating: msegui/apps/ide/findinfiledialogform_mfm.pas  
+  inflating: msegui/apps/ide/actionsmodule.mfm  
+  inflating: msegui/apps/ide/actionsmodule.pas  
+  inflating: msegui/apps/ide/cpux86_64form.mfm  
+  inflating: msegui/apps/ide/cpux86_64form.pas  
+  inflating: msegui/apps/ide/findinfilepage.mfm  
+  inflating: msegui/apps/ide/findinfilepage.pas  
+  inflating: msegui/apps/ide/skeletons.pas  
+  inflating: msegui/apps/ide/watchpointsform_mfm.pas  
+  inflating: msegui/apps/ide/mseparamentryform.mfm  
+  inflating: msegui/apps/ide/mseparamentryform.pas  
+  inflating: msegui/apps/ide/templateeditor_mfm.pas  
+  inflating: msegui/apps/ide/commandlineform.mfm  
+  inflating: msegui/apps/ide/commandlineform.pas  
+  inflating: msegui/apps/ide/messageform_mfm.pas  
+  inflating: msegui/apps/ide/sourcehintform.mfm  
+  inflating: msegui/apps/ide/sourcehintform.pas  
+  inflating: msegui/apps/ide/commandlineform_mfm.pas  
+  inflating: msegui/apps/ide/msecomptree_mfm.pas  
+  inflating: msegui/apps/ide/msedesignparser.pas  
+  inflating: msegui/apps/ide/findinfileform.mfm  
+  inflating: msegui/apps/ide/findinfileform.pas  
+  inflating: msegui/apps/ide/disassform_mfm.pas  
+  inflating: msegui/apps/ide/projecttreeform_mfm.pas  
+  inflating: msegui/apps/ide/msetemplateselectform.mfm  
+  inflating: msegui/apps/ide/msetemplateselectform.pas  
+  inflating: msegui/apps/ide/printform.mfm  
+  inflating: msegui/apps/ide/printform.pas  
+  inflating: msegui/apps/ide/watchpointsform.mfm  
+  inflating: msegui/apps/ide/watchpointsform.pas  
+  inflating: msegui/apps/ide/objectinspector.mfm  
+  inflating: msegui/apps/ide/objectinspector.pas  
+  inflating: msegui/apps/ide/cpuavr32form.mfm  
+  inflating: msegui/apps/ide/cpuavr32form.pas  
+  inflating: msegui/apps/ide/imageselectorform_mfm.pas  
+  inflating: msegui/apps/ide/watchform_mfm.pas  
+  inflating: msegui/apps/ide/setcreateorderform_mfm.pas  
+  inflating: msegui/apps/ide/cpucpu32form.mfm  
+  inflating: msegui/apps/ide/cpucpu32form.pas  
+  inflating: msegui/apps/ide/cpuarmform_mfm.pas  
+  inflating: msegui/apps/ide/threadsform_mfm.pas  
+  inflating: msegui/apps/ide/guitemplates_mfm.pas  
+  inflating: msegui/apps/ide/breakpointsform_mfm.pas  
+  inflating: msegui/apps/ide/replacedialogform_mfm.pas  
+  inflating: msegui/apps/ide/templateeditor.mfm  
+  inflating: msegui/apps/ide/templateeditor.pas  
+  inflating: msegui/apps/ide/cpui386form.mfm  
+  inflating: msegui/apps/ide/cpui386form.pas  
+  inflating: msegui/apps/ide/sourcepage.mfm  
+  inflating: msegui/apps/ide/sourcepage.pas  
+  inflating: msegui/apps/ide/componentstore.mfm  
+  inflating: msegui/apps/ide/componentstore.pas  
+  inflating: msegui/apps/ide/finddialogform_mfm.pas  
+  inflating: msegui/apps/ide/stackform.mfm  
+  inflating: msegui/apps/ide/stackform.pas  
+  inflating: msegui/apps/ide/cpuform_mfm.pas  
+  inflating: msegui/apps/ide/findinfilepage_mfm.pas  
+  inflating: msegui/apps/ide/guitemplates.mfm  
+  inflating: msegui/apps/ide/guitemplates.pas  
+  inflating: msegui/apps/ide/programparametersform_mfm.pas  
+  inflating: msegui/apps/ide/selecteditpageform_mfm.pas  
+  inflating: msegui/apps/ide/dumpunitgroups.pas  
+  inflating: msegui/apps/ide/breakpointsform.mfm  
+  inflating: msegui/apps/ide/breakpointsform.pas  
+  inflating: msegui/apps/ide/sourceform.mfm  
+  inflating: msegui/apps/ide/sourceform.pas  
+  inflating: msegui/apps/ide/mseide_zeos.prj  
+  inflating: msegui/apps/ide/messageform.mfm  
+  inflating: msegui/apps/ide/messageform.pas  
+  inflating: msegui/apps/ide/projectoptionsform_mfm.pas  
+  inflating: msegui/apps/ide/formdesigner.mfm  
+  inflating: msegui/apps/ide/formdesigner.pas  
+  inflating: msegui/apps/ide/sourcepage_mfm.pas  
+  inflating: msegui/apps/ide/findinfileform_mfm.pas  
+  inflating: msegui/apps/ide/selecteditpageform.mfm  
+  inflating: msegui/apps/ide/selecteditpageform.pas  
+  inflating: msegui/apps/ide/disassform.mfm  
+  inflating: msegui/apps/ide/disassform.pas  
+  inflating: msegui/apps/ide/findinfiledialogform.mfm  
+  inflating: msegui/apps/ide/findinfiledialogform.pas  
+  inflating: msegui/apps/ide/storedcomponentinfodialog_mfm.pas  
+  inflating: msegui/apps/ide/msetemplateselectform_mfm.pas  
+  inflating: msegui/apps/ide/memoryform.mfm  
+  inflating: msegui/apps/ide/memoryform.pas  
+  inflating: msegui/apps/ide/imageselectorform.mfm  
+  inflating: msegui/apps/ide/imageselectorform.pas  
+  inflating: msegui/apps/ide/sourcehintform_mfm.pas  
+  inflating: msegui/apps/ide/cpucpu32form_mfm.pas  
+  inflating: msegui/apps/ide/symbolform_mfm.pas  
+  inflating: msegui/apps/ide/COPYING  
+  inflating: msegui/apps/ide/sourceform_mfm.pas  
+  inflating: msegui/apps/ide/threadsform.mfm  
+  inflating: msegui/apps/ide/threadsform.pas  
+  inflating: msegui/apps/ide/componentpaletteform_mfm.pas  
+  inflating: msegui/apps/ide/settaborderform.mfm  
+  inflating: msegui/apps/ide/settaborderform.pas  
+  inflating: msegui/apps/ide/cdesignparser.pas  
+  inflating: msegui/apps/ide/pascaldesignparser.pas  
+  inflating: msegui/apps/ide/componentstore_mfm.pas  
+  inflating: msegui/apps/ide/targetconsole.mfm  
+  inflating: msegui/apps/ide/targetconsole.pas  
+  inflating: msegui/apps/ide/panelform.mfm  
+  inflating: msegui/apps/ide/panelform.pas  
+   creating: msegui/apps/ide/templates/
+   creating: msegui/apps/ide/templates/console/
+  inflating: msegui/apps/ide/templates/console/unit.pas  
+  inflating: msegui/apps/ide/templates/console/project.pas  
+  inflating: msegui/apps/ide/templates/console/program.pas  
+   creating: msegui/apps/ide/templates/default/
+  inflating: msegui/apps/ide/templates/default/main_mfm.pas  
+  inflating: msegui/apps/ide/templates/default/subform.mfm  
+  inflating: msegui/apps/ide/templates/default/subform.pas  
+  inflating: msegui/apps/ide/templates/default/unit.pas  
+  inflating: msegui/apps/ide/templates/default/dockpanelform.mfm  
+  inflating: msegui/apps/ide/templates/default/dockpanelform.pas  
+  inflating: msegui/apps/ide/templates/default/project.pas  
+  inflating: msegui/apps/ide/templates/default/report.mfm  
+  inflating: msegui/apps/ide/templates/default/report.pas  
+  inflating: msegui/apps/ide/templates/default/program.pas  
+  inflating: msegui/apps/ide/templates/default/dockingform.mfm  
+  inflating: msegui/apps/ide/templates/default/dockingform.pas  
+  inflating: msegui/apps/ide/templates/default/main.mfm  
+  inflating: msegui/apps/ide/templates/default/main.pas  
+  inflating: msegui/apps/ide/templates/default/inheritedform.mfm  
+  inflating: msegui/apps/ide/templates/default/inheritedform.pas  
+  inflating: msegui/apps/ide/templates/default/datamodule.mfm  
+  inflating: msegui/apps/ide/templates/default/datamodule.pas  
+  inflating: msegui/apps/ide/templates/default/simpleform.mfm  
+  inflating: msegui/apps/ide/templates/default/simpleform.pas  
+  inflating: msegui/apps/ide/templates/default/mainform.mfm  
+  inflating: msegui/apps/ide/templates/default/mainform.pas  
+  inflating: msegui/apps/ide/templates/default/tabform.mfm  
+  inflating: msegui/apps/ide/templates/default/tabform.pas  
+  inflating: msegui/apps/ide/templates/default/pascform.mfm  
+  inflating: msegui/apps/ide/templates/default/pascform.pas  
+  inflating: msegui/apps/ide/templates/default.prj  
+  inflating: msegui/apps/ide/templates/library.prj  
+   creating: msegui/apps/ide/templates/library/
+  inflating: msegui/apps/ide/templates/library/unit.pas  
+  inflating: msegui/apps/ide/templates/library/project.pas  
+  inflating: msegui/apps/ide/templates/library/program.pas  
+  inflating: msegui/apps/ide/templates/console.prj  
+  inflating: msegui/apps/ide/templates/zeos.prj  
+  inflating: msegui/apps/ide/projectoptionsform.mfm  
+  inflating: msegui/apps/ide/projectoptionsform.pas  
+   creating: msegui/apps/demo/
+  inflating: msegui/apps/demo/main_mfm.pas  
+  inflating: msegui/apps/demo/main.mfm  
+  inflating: msegui/apps/demo/main.pas  
+  inflating: msegui/apps/demo/demo.pas  
+  inflating: msegui/apps/demo/demo.prj  
+   creating: msegui/apps/facedemo/
+  inflating: msegui/apps/facedemo/main_mfm.pas  
+  inflating: msegui/apps/facedemo/main.mfm  
+  inflating: msegui/apps/facedemo/main.pas  
+  inflating: msegui/apps/facedemo/facedemo.pas  
+  inflating: msegui/apps/facedemo/facedemo.prj  
+   creating: msegui/apps/myide/
+ extracting: msegui/apps/myide/regcomponents.inc  
+  inflating: msegui/apps/myide/regmycomps.pas  
+  inflating: msegui/apps/myide/mymseide.prj  
+  inflating: msegui/apps/myide/mybutton.pas  
+   creating: msegui/apps/i18ndemo/
+   creating: msegui/apps/i18ndemo/de/
+   creating: msegui/apps/i18ndemo/fr/
+  inflating: msegui/apps/i18ndemo/main_mfm.pas  
+  inflating: msegui/apps/i18ndemo/i18ndemo.pas  
+  inflating: msegui/apps/i18ndemo/i18ndemo.prj  
+  inflating: msegui/apps/i18ndemo/i18ndemo.trd  
+  inflating: msegui/apps/i18ndemo/i18ndemo.trp  
+  inflating: msegui/apps/i18ndemo/main.mfm  
+  inflating: msegui/apps/i18ndemo/main.pas  
+  inflating: msegui/apps/i18ndemo/main.rst  
+   creating: msegui/docs/
+  inflating: msegui/VERSION.TXT      
+   creating: msegui/tools/
+   creating: msegui/tools/i18n/
+  inflating: msegui/tools/i18n/messagesform_mfm.pas  
+  inflating: msegui/tools/i18n/main_mfm.pas  
+  inflating: msegui/tools/i18n/project.mfm  
+  inflating: msegui/tools/i18n/project.pas  
+  inflating: msegui/tools/i18n/main.mfm  
+  inflating: msegui/tools/i18n/main.pas  
+  inflating: msegui/tools/i18n/msei18n.rc  
+  inflating: msegui/tools/i18n/mseresourceparser.pas  
+  inflating: msegui/tools/i18n/messagesform.mfm  
+  inflating: msegui/tools/i18n/messagesform.pas  
+  inflating: msegui/tools/i18n/project_mfm.pas  
+  inflating: msegui/tools/i18n/msei18n.pas  
+  inflating: msegui/tools/i18n/msei18n.prj  
+  inflating: msegui/tools/i18n/msei18n.res  
+  inflating: msegui/tools/bmp2pas.pas  
+  inflating: msegui/tools/form2pas.pas  
+ extracting: msegui/msegui_24.png    
+ extracting: msegui/msegui_32.png    
+ extracting: msegui/msegui_48.png    
+ extracting: msegui/msegui_64.png    
+  inflating: msegui/README.TXT       
+   creating: msegui/patch_fpc_2_4_2/
+   creating: msegui/patch_fpc_2_4_2/rtl/
+   creating: msegui/patch_fpc_2_4_2/rtl/objpas/
+   creating: msegui/patch_fpc_2_4_2/rtl/objpas/classes/
+  inflating: msegui/patch_fpc_2_4_2/rtl/objpas/classes/writer.inc  
++ rm -rf ./mseide-msegui
++ mkdir ./mseide-msegui
++ mv ./msegui/README.TXT ./msegui/VERSION.TXT ./msegui/apps ./msegui/docs ./msegui/lib ./msegui/msegui_24.png ./msegui/msegui_32.png ./msegui/msegui_48.png ./msegui/msegui_64.png ./msegui/patch_fpc_2_4_2 ./msegui/tools ./mseide-msegui
++ rm -rf ./msegui
++ exit 0
+Executing(%build): /bin/sh -e /var/tmp/rpm-tmp.UU7RGY
++ umask 022
++ cd /home/user/rpmbuild/BUILD
++ cd xroot-src-0.0.6
++ '[' 1 -eq 1 ']'
++ '[' 1 -eq 1 ']'
++ ./get_mseide_msegui_32_64
+Archive:  mseide_msegui_src_2_8.zip
+   creating: msegui/
+   creating: msegui/lib/
+   creating: msegui/lib/common/
+   creating: msegui/lib/common/db/
+  inflating: msegui/lib/common/db/ibase60.inc  
+  inflating: msegui/lib/common/db/msesqlite3conn.pas  
+  inflating: msegui/lib/common/db/msedb.pas  
+  inflating: msegui/lib/common/db/msesqlquery.pas  
+  inflating: msegui/lib/common/db/msedatabase.pas  
+  inflating: msegui/lib/common/db/msedbgraphics.pas  
+  inflating: msegui/lib/common/db/mibconnection.pas  
+  inflating: msegui/lib/common/db/msemysqlconn.pas  
+  inflating: msegui/lib/common/db/ibase60dyn.pp  
+  inflating: msegui/lib/common/db/mmysql4conn.pas  
+  inflating: msegui/lib/common/db/mmysql41conn.pas  
+  inflating: msegui/lib/common/db/mmysql41conn.rst  
+  inflating: msegui/lib/common/db/msememds.pas  
+  inflating: msegui/lib/common/db/msedbdialog.pas  
+  inflating: msegui/lib/common/db/sqlite3dyn.pas  
+  inflating: msegui/lib/common/db/msemysql40conn.pas  
+  inflating: msegui/lib/common/db/msesqlresult.pas  
+  inflating: msegui/lib/common/db/msepqconnection.pas  
+  inflating: msegui/lib/common/db/msesdfdata.pas  
+  inflating: msegui/lib/common/db/mselocaldataset.pas  
+  inflating: msegui/lib/common/db/msesqlite3ds.pas  
+  inflating: msegui/lib/common/db/msedbf.pas  
+  inflating: msegui/lib/common/db/ibase60.pp  
+  inflating: msegui/lib/common/db/msebufdataset.pas  
+  inflating: msegui/lib/common/db/msezeos.pas  
+  inflating: msegui/lib/common/db/msedbdispwidgets.pas  
+  inflating: msegui/lib/common/db/msemysql50conn.pas  
+  inflating: msegui/lib/common/db/mseibconnection.pas  
+  inflating: msegui/lib/common/db/mysqldyn.pp  
+  inflating: msegui/lib/common/db/mpqconnection.pp  
+  inflating: msegui/lib/common/db/mmysql40conn.pas  
+  inflating: msegui/lib/common/db/mmysql40conn.rst  
+  inflating: msegui/lib/common/db/mseodbcconn.pas  
+  inflating: msegui/lib/common/db/msedbcalendardatetimeedit.pas  
+  inflating: msegui/lib/common/db/msedbevents.pas  
+  inflating: msegui/lib/common/db/mysqldyn.rst  
+  inflating: msegui/lib/common/db/memds.rst  
+  inflating: msegui/lib/common/db/postgres3dyn.pp  
+  inflating: msegui/lib/common/db/odbcsqldyn.pas  
+  inflating: msegui/lib/common/db/ibase60dyn.rst  
+  inflating: msegui/lib/common/db/msesqldb.pas  
+  inflating: msegui/lib/common/db/modbcconn.pas  
+  inflating: msegui/lib/common/db/msemysql41conn.pas  
+  inflating: msegui/lib/common/db/mmysql50conn.pas  
+  inflating: msegui/lib/common/db/mmysql50conn.rst  
+  inflating: msegui/lib/common/db/mmysqlconn.inc  
+  inflating: msegui/lib/common/db/mmysqlconn.pas  
+  inflating: msegui/lib/common/db/mmysqlconn.rst  
+  inflating: msegui/lib/common/db/mpqconnection.rst  
+  inflating: msegui/lib/common/db/msedblookup.pas  
+  inflating: msegui/lib/common/db/msedbedit.pas  
+  inflating: msegui/lib/common/db/msqldb.pas  
+  inflating: msegui/lib/common/db/mselookupbuffer.pas  
+  inflating: msegui/lib/common/db/memds.pp  
+   creating: msegui/lib/common/ifi/
+  inflating: msegui/lib/common/ifi/msecryptstream.pas  
+  inflating: msegui/lib/common/ifi/mseifidbgui.pas  
+  inflating: msegui/lib/common/ifi/mopenssl.pas  
+  inflating: msegui/lib/common/ifi/msecryptio.pas  
+  inflating: msegui/lib/common/ifi/mseifi.pas  
+  inflating: msegui/lib/common/ifi/msesockets.pas  
+  inflating: msegui/lib/common/ifi/mseifidbcomp.pas  
+  inflating: msegui/lib/common/ifi/mseifilink.pas  
+  inflating: msegui/lib/common/ifi/mseifigui.pas  
+  inflating: msegui/lib/common/ifi/mseificompglob.pas  
+  inflating: msegui/lib/common/ifi/mseifiglob.pas  
+  inflating: msegui/lib/common/ifi/mseificomp.pas  
+  inflating: msegui/lib/common/ifi/msessl.pas  
+  inflating: msegui/lib/common/ifi/mseifids.pas  
+   creating: msegui/lib/common/i18n/
+  inflating: msegui/lib/common/i18n/msei18nglob.pas  
+  inflating: msegui/lib/common/i18n/mseucs2toru.pas  
+  inflating: msegui/lib/common/i18n/mselanglink.pas  
+  inflating: msegui/lib/common/i18n/msei18nutils.pas  
+   creating: msegui/lib/common/math/
+  inflating: msegui/lib/common/math/msesignoise.pas  
+  inflating: msegui/lib/common/math/msesigfft.pas  
+  inflating: msegui/lib/common/math/msesignal.pas  
+  inflating: msegui/lib/common/math/msesigfftgui.pas  
+  inflating: msegui/lib/common/math/msesiggui.pas  
+  inflating: msegui/lib/common/math/msesigaudio.pas  
+  inflating: msegui/lib/common/math/msesigmidi.pas  
+  inflating: msegui/lib/common/math/msefftw.pas  
+  inflating: msegui/lib/common/math/msefft.pas  
+  inflating: msegui/lib/common/math/msefilter.pas  
+   creating: msegui/lib/common/editwidgets/
+  inflating: msegui/lib/common/editwidgets/msedatanodes.pas  
+  inflating: msegui/lib/common/editwidgets/msedataedits.pas  
+  inflating: msegui/lib/common/editwidgets/msetextedit.pas  
+  inflating: msegui/lib/common/editwidgets/msegraphedits.pas  
+  inflating: msegui/lib/common/editwidgets/msefoldedit.pas  
+  inflating: msegui/lib/common/editwidgets/mseterminal.pas  
+  inflating: msegui/lib/common/editwidgets/msewidgetgrid.pas  
+  inflating: msegui/lib/common/editwidgets/msedataimage.pas  
+  inflating: msegui/lib/common/editwidgets/mseedit.pas  
+  inflating: msegui/lib/common/editwidgets/msedropdownlist.pas  
+  inflating: msegui/lib/common/editwidgets/mselistbrowser.pas  
+  inflating: msegui/lib/common/editwidgets/mserealsumedit.pas  
+  inflating: msegui/lib/common/editwidgets/msestringlistedit.pas  
+  inflating: msegui/lib/common/editwidgets/msecalendardatetimeedit.pas  
+   creating: msegui/lib/common/dialogs/
+  inflating: msegui/lib/common/dialogs/msefiledialogres_mfm.pas  
+  inflating: msegui/lib/common/dialogs/mseshortcutdialog.mfm  
+  inflating: msegui/lib/common/dialogs/mseshortcutdialog.pas  
+  inflating: msegui/lib/common/dialogs/mseintegerenter_mfm.pas  
+  inflating: msegui/lib/common/dialogs/msememodialog.mfm  
+  inflating: msegui/lib/common/dialogs/msememodialog.pas  
+  inflating: msegui/lib/common/dialogs/msememodialog_mfm.pas  
+  inflating: msegui/lib/common/dialogs/mseintegerenter.mfm  
+  inflating: msegui/lib/common/dialogs/mseintegerenter.pas  
+  inflating: msegui/lib/common/dialogs/msefiledialog_mfm.pas  
+  inflating: msegui/lib/common/dialogs/mserealenter.mfm  
+  inflating: msegui/lib/common/dialogs/mserealenter.pas  
+  inflating: msegui/lib/common/dialogs/msepopupcalendar_mfm.pas  
+  inflating: msegui/lib/common/dialogs/msefiledialogres.mfm  
+  inflating: msegui/lib/common/dialogs/msefiledialogres.pas  
+  inflating: msegui/lib/common/dialogs/msefiledialog.mfm  
+  inflating: msegui/lib/common/dialogs/msefiledialog.pas  
+  inflating: msegui/lib/common/dialogs/msedirtree_mfm.pas  
+  inflating: msegui/lib/common/dialogs/msedirtree.mfm  
+  inflating: msegui/lib/common/dialogs/msedirtree.pas  
+  inflating: msegui/lib/common/dialogs/msecolordialog.mfm  
+  inflating: msegui/lib/common/dialogs/msecolordialog.pas  
+  inflating: msegui/lib/common/dialogs/msestringenter.mfm  
+  inflating: msegui/lib/common/dialogs/msestringenter.pas  
+  inflating: msegui/lib/common/dialogs/mserealenter_mfm.pas  
+  inflating: msegui/lib/common/dialogs/msecolordialog_mfm.pas  
+  inflating: msegui/lib/common/dialogs/msestringenter_mfm.pas  
+  inflating: msegui/lib/common/dialogs/msepopupcalendar.mfm  
+  inflating: msegui/lib/common/dialogs/msepopupcalendar.pas  
+  inflating: msegui/lib/common/dialogs/msedialog.pas  
+  inflating: msegui/lib/common/dialogs/mseshortcutdialog_mfm.pas  
+   creating: msegui/lib/common/audio/
+  inflating: msegui/lib/common/audio/msemidi.pas  
+  inflating: msegui/lib/common/audio/msepulse.pas  
+  inflating: msegui/lib/common/audio/msepulsesimple.pas  
+  inflating: msegui/lib/common/audio/msepulseglob.pas  
+  inflating: msegui/lib/common/audio/mseaudio.pas  
+   creating: msegui/lib/common/image/
+  inflating: msegui/lib/common/image/mseformattgaread.pas  
+  inflating: msegui/lib/common/image/mseformatxpmread.pas  
+  inflating: msegui/lib/common/image/msegraphicstream.pas  
+  inflating: msegui/lib/common/image/mseformatpngread.pas  
+  inflating: msegui/lib/common/image/mseformatjpgread.pas  
+  inflating: msegui/lib/common/image/mseformatbmpicoread.pas  
+  inflating: msegui/lib/common/image/mseformatpnmread.pas  
+  inflating: msegui/lib/common/image/mseformatpngwrite.pas  
+  inflating: msegui/lib/common/image/mseformatjpgwrite.pas  
+   creating: msegui/lib/common/graphics/
+  inflating: msegui/lib/common/graphics/msegraphutils.pas  
+  inflating: msegui/lib/common/graphics/msefcfontselect.pas  
+  inflating: msegui/lib/common/graphics/msegdi32gdi.pas  
+  inflating: msegui/lib/common/graphics/msefontconfig.pas  
+  inflating: msegui/lib/common/graphics/msegraphics.pas  
+  inflating: msegui/lib/common/graphics/msegenericgdi.pas  
+  inflating: msegui/lib/common/graphics/msefreetype.pas  
+  inflating: msegui/lib/common/graphics/mseftfontcache.pas  
+  inflating: msegui/lib/common/graphics/msebitmap.pas  
+  inflating: msegui/lib/common/graphics/msedrawtext.pas  
+  inflating: msegui/lib/common/graphics/msefontcache.pas  
+  inflating: msegui/lib/common/graphics/msex11gdi.pas  
+  inflating: msegui/lib/common/graphics/msefont.pas  
+  inflating: msegui/lib/common/COPYING.MSE  
+   creating: msegui/lib/common/regcomponents/
+  inflating: msegui/lib/common/regcomponents/regeditwidgets_bmp.pas  
+  inflating: msegui/lib/common/regcomponents/regkernel_bmp.pas  
+  inflating: msegui/lib/common/regcomponents/regsysutils_bmp.pas  
+  inflating: msegui/lib/common/regcomponents/regmath_bmp.pas  
+  inflating: msegui/lib/common/regcomponents/regdeprecated.pas  
+  inflating: msegui/lib/common/regcomponents/regreport.pas  
+  inflating: msegui/lib/common/regcomponents/regglob.pas  
+  inflating: msegui/lib/common/regcomponents/regkernel.pas  
+  inflating: msegui/lib/common/regcomponents/regmath.pas  
+  inflating: msegui/lib/common/regcomponents/regwidgets.pas  
+  inflating: msegui/lib/common/regcomponents/regzeoslib_bmp.pas  
+  inflating: msegui/lib/common/regcomponents/regexperimental.pas  
+  inflating: msegui/lib/common/regcomponents/regifirem.pas  
+  inflating: msegui/lib/common/regcomponents/regprinter.pas  
+  inflating: msegui/lib/common/regcomponents/regserialcomm.pas  
+  inflating: msegui/lib/common/regcomponents/regreport_bmp.pas  
+  inflating: msegui/lib/common/regcomponents/designer_bmp.pas  
+  inflating: msegui/lib/common/regcomponents/regdesignutils.pas  
+  inflating: msegui/lib/common/regcomponents/regdb_bmp.pas  
+  inflating: msegui/lib/common/regcomponents/regeditwidgets.pas  
+  inflating: msegui/lib/common/regcomponents/regdesignutils_bmp.pas  
+  inflating: msegui/lib/common/regcomponents/regpascalscript.pas  
+  inflating: msegui/lib/common/regcomponents/regwidgets_bmp.pas  
+  inflating: msegui/lib/common/regcomponents/regifi.pas  
+  inflating: msegui/lib/common/regcomponents/regifirem_bmp.pas  
+  inflating: msegui/lib/common/regcomponents/regifi_bmp.pas  
+  inflating: msegui/lib/common/regcomponents/regdb.pas  
+  inflating: msegui/lib/common/regcomponents/regsysutils.pas  
+  inflating: msegui/lib/common/regcomponents/regdialogs_bmp.pas  
+  inflating: msegui/lib/common/regcomponents/regunitgroups.pas  
+  inflating: msegui/lib/common/regcomponents/regzeoslib.pas  
+  inflating: msegui/lib/common/regcomponents/regmm.pas  
+  inflating: msegui/lib/common/regcomponents/regserialcomm_bmp.pas  
+  inflating: msegui/lib/common/regcomponents/regdeprecated_bmp.pas  
+  inflating: msegui/lib/common/regcomponents/regdialogs.pas  
+   creating: msegui/lib/common/delphicompatibility/
+  inflating: msegui/lib/common/delphicompatibility/winsock2_del.pas  
+   creating: msegui/lib/common/pascalscript/
+  inflating: msegui/lib/common/pascalscript/msepascalscript.pas  
+  inflating: msegui/lib/common/pascalscript/msepascimport.pas  
+  inflating: msegui/lib/common/pascalscript/msepascimportmsegui.pas  
+   creating: msegui/lib/common/designutils/
+  inflating: msegui/lib/common/designutils/msesettings.mfm  
+  inflating: msegui/lib/common/designutils/msesettings.pas  
+  inflating: msegui/lib/common/designutils/msesyntaxedit.pas  
+  inflating: msegui/lib/common/designutils/msedbfieldeditor.mfm  
+  inflating: msegui/lib/common/designutils/msedbfieldeditor.pas  
+  inflating: msegui/lib/common/designutils/msedoublestringlisteditor_mfm.pas  
+  inflating: msegui/lib/common/designutils/msecomponenteditors.pas  
+  inflating: msegui/lib/common/designutils/msestringlisteditor_mfm.pas  
+  inflating: msegui/lib/common/designutils/mseresourcetools.pas  
+  inflating: msegui/lib/common/designutils/mseificlienteditor.mfm  
+  inflating: msegui/lib/common/designutils/mseificlienteditor.pas  
+  inflating: msegui/lib/common/designutils/mseimagelisteditor_mfm.pas  
+  inflating: msegui/lib/common/designutils/msestringintlisteditor_mfm.pas  
+  inflating: msegui/lib/common/designutils/msestringintlisteditor.mfm  
+  inflating: msegui/lib/common/designutils/msestringintlisteditor.pas  
+  inflating: msegui/lib/common/designutils/mseintegerlisteditor_mfm.pas  
+  inflating: msegui/lib/common/designutils/mseformdatatools.pas  
+  inflating: msegui/lib/common/designutils/msetexteditor_mfm.pas  
+  inflating: msegui/lib/common/designutils/msesettings_mfm.pas  
+  inflating: msegui/lib/common/designutils/mseintegerlisteditor.mfm  
+  inflating: msegui/lib/common/designutils/mseintegerlisteditor.pas  
+  inflating: msegui/lib/common/designutils/mseparser.pas  
+  inflating: msegui/lib/common/designutils/msereallisteditor.mfm  
+  inflating: msegui/lib/common/designutils/msereallisteditor.pas  
+  inflating: msegui/lib/common/designutils/msegdbutils.pas  
+  inflating: msegui/lib/common/designutils/msedoublereallisteditor.mfm  
+  inflating: msegui/lib/common/designutils/msedoublereallisteditor.pas  
+  inflating: msegui/lib/common/designutils/msefadeedit_mfm.pas  
+  inflating: msegui/lib/common/designutils/msedoublestringlisteditor.mfm  
+  inflating: msegui/lib/common/designutils/msedoublestringlisteditor.pas  
+  inflating: msegui/lib/common/designutils/mseificomponenteditors.pas  
+  inflating: msegui/lib/common/designutils/mseificlienteditor_mfm.pas  
+  inflating: msegui/lib/common/designutils/msefadeedit.mfm  
+  inflating: msegui/lib/common/designutils/msefadeedit.pas  
+  inflating: msegui/lib/common/designutils/msereallisteditor_mfm.pas  
+  inflating: msegui/lib/common/designutils/msedbfieldeditor_mfm.pas  
+  inflating: msegui/lib/common/designutils/msestringlisteditor.mfm  
+  inflating: msegui/lib/common/designutils/msestringlisteditor.pas  
+  inflating: msegui/lib/common/designutils/mseimagelisteditor.mfm  
+  inflating: msegui/lib/common/designutils/mseimagelisteditor.pas  
+  inflating: msegui/lib/common/designutils/mseskindesign.pas  
+  inflating: msegui/lib/common/designutils/msetexteditor.mfm  
+  inflating: msegui/lib/common/designutils/msetexteditor.pas  
+  inflating: msegui/lib/common/designutils/msesyntaxpainter.pas  
+  inflating: msegui/lib/common/designutils/msedoublereallisteditor_mfm.pas  
+  inflating: msegui/lib/common/designutils/msedesignintf.pas  
+  inflating: msegui/lib/common/designutils/msepropertyeditors.pas  
+   creating: msegui/lib/common/kernel/
+  inflating: msegui/lib/common/kernel/msestreaming.pas  
+  inflating: msegui/lib/common/kernel/msedrag.pas  
+  inflating: msegui/lib/common/kernel/msesys.pas  
+  inflating: msegui/lib/common/kernel/mseuniintf.inc  
+  inflating: msegui/lib/common/kernel/mseconsts_ru.pas  
+  inflating: msegui/lib/common/kernel/msedatamodules.pas  
+  inflating: msegui/lib/common/kernel/mseglob.pas  
+  inflating: msegui/lib/common/kernel/mseact.pas  
+  inflating: msegui/lib/common/kernel/mseguiglob.pas  
+  inflating: msegui/lib/common/kernel/mseactions.pas  
+  inflating: msegui/lib/common/kernel/msenogui.pas  
+  inflating: msegui/lib/common/kernel/mseconsts_zh.pas  
+  inflating: msegui/lib/common/kernel/msesysintf.inc  
+  inflating: msegui/lib/common/kernel/mseskin.pas  
+  inflating: msegui/lib/common/kernel/msehash.pas  
+  inflating: msegui/lib/common/kernel/msestrings.pas  
+  inflating: msegui/lib/common/kernel/msegui.pas  
+   creating: msegui/lib/common/kernel/i386-linux/
+  inflating: msegui/lib/common/kernel/i386-linux/mseuniintf.pas  
+  inflating: msegui/lib/common/kernel/i386-linux/msesysintf.pas  
+  inflating: msegui/lib/common/kernel/i386-linux/cwstring.pp  
+  inflating: msegui/lib/common/kernel/i386-linux/msesocketintf.pas  
+  inflating: msegui/lib/common/kernel/i386-linux/sm.pas  
+  inflating: msegui/lib/common/kernel/i386-linux/mseguiintf.pas  
+  inflating: msegui/lib/common/kernel/i386-linux/xrender.pas  
+  inflating: msegui/lib/common/kernel/i386-linux/ice.pas  
+  inflating: msegui/lib/common/kernel/i386-linux/msesysintf1.pas  
+  inflating: msegui/lib/common/kernel/i386-linux/msesetlocale.pas  
+  inflating: msegui/lib/common/kernel/i386-linux/msenoguiintf.pas  
+  inflating: msegui/lib/common/kernel/i386-linux/mseprocmonitor.pas  
+  inflating: msegui/lib/common/kernel/i386-linux/xft.pas  
+   creating: msegui/lib/common/kernel/i386-win32/
+  inflating: msegui/lib/common/kernel/i386-win32/mseuniintf.pas  
+  inflating: msegui/lib/common/kernel/i386-win32/msesysintf.pas  
+  inflating: msegui/lib/common/kernel/i386-win32/msesystimer.pas  
+  inflating: msegui/lib/common/kernel/i386-win32/msewinglob.pas  
+  inflating: msegui/lib/common/kernel/i386-win32/msesocketintf.pas  
+  inflating: msegui/lib/common/kernel/i386-win32/mseguiintf.pas  
+  inflating: msegui/lib/common/kernel/i386-win32/msesysintf1.pas  
+  inflating: msegui/lib/common/kernel/i386-win32/msenoguiintf.pas  
+  inflating: msegui/lib/common/kernel/i386-win32/mseprocmonitor.pas  
+  inflating: msegui/lib/common/kernel/mseapplication.pas  
+  inflating: msegui/lib/common/kernel/msedatalist.pas  
+  inflating: msegui/lib/common/kernel/msearrayprops.pas  
+  inflating: msegui/lib/common/kernel/msepointer.pas  
+  inflating: msegui/lib/common/kernel/msesystypes.pas  
+  inflating: msegui/lib/common/kernel/msethread.pas  
+  inflating: msegui/lib/common/kernel/mserttistat.pas  
+  inflating: msegui/lib/common/kernel/msetmpmodules.pas  
+  inflating: msegui/lib/common/kernel/msearrayutils.pas  
+  inflating: msegui/lib/common/kernel/msestrings.pas.THEIR.4084.pas  
+  inflating: msegui/lib/common/kernel/msestat.pas  
+  inflating: msegui/lib/common/kernel/mserichstring.pas  
+  inflating: msegui/lib/common/kernel/msekeyboard.pas  
+  inflating: msegui/lib/common/kernel/mseguithreadcomp.pas  
+  inflating: msegui/lib/common/kernel/mseunicodeps.pas  
+  inflating: msegui/lib/common/kernel/mseconsts_uzcyr.pas  
+  inflating: msegui/lib/common/kernel/mseclasses.pas  
+  inflating: msegui/lib/common/kernel/mselibc.pas  
+  inflating: msegui/lib/common/kernel/mseshapes.pas  
+  inflating: msegui/lib/common/kernel/msesonames.pas  
+  inflating: msegui/lib/common/kernel/msefloattostr.pas  
+  inflating: msegui/lib/common/kernel/msereal.pas  
+  inflating: msegui/lib/common/kernel/msescrollbar.pas  
+  inflating: msegui/lib/common/kernel/msesocketintf.inc  
+  inflating: msegui/lib/common/kernel/msemenus.pas  
+  inflating: msegui/lib/common/kernel/msethreadcomp.pas  
+  inflating: msegui/lib/common/kernel/msefileutils.pas  
+  inflating: msegui/lib/common/kernel/msestatfile.pas  
+  inflating: msegui/lib/common/kernel/kernel_bmp.pas  
+  inflating: msegui/lib/common/kernel/msebucketlist.pas  
+  inflating: msegui/lib/common/kernel/mseguiintf.inc  
+  inflating: msegui/lib/common/kernel/mseformatstr.pas  
+  inflating: msegui/lib/common/kernel/msestockobjects_mfm.pas  
+  inflating: msegui/lib/common/kernel/msetimer.pas  
+  inflating: msegui/lib/common/kernel/msesumlist.pas  
+  inflating: msegui/lib/common/kernel/mselist.pas  
+  inflating: msegui/lib/common/kernel/msebits.pas  
+  inflating: msegui/lib/common/kernel/msectypes.pas  
+  inflating: msegui/lib/common/kernel/msesysintf1.inc  
+  inflating: msegui/lib/common/kernel/msedate.pas  
+  inflating: msegui/lib/common/kernel/mseconsts.pas  
+  inflating: msegui/lib/common/kernel/msetypes.pas  
+  inflating: msegui/lib/common/kernel/msebintree.pas  
+  inflating: msegui/lib/common/kernel/msestockobjects.mfm  
+  inflating: msegui/lib/common/kernel/msestockobjects.pas  
+  inflating: msegui/lib/common/kernel/mseconsts_de.pas  
+  inflating: msegui/lib/common/kernel/msestrings.pas.BASE.4084.pas  
+  inflating: msegui/lib/common/kernel/msepipestream.pas  
+  inflating: msegui/lib/common/kernel/mseconsts_es.pas  
+  inflating: msegui/lib/common/kernel/mseerr.pas  
+  inflating: msegui/lib/common/kernel/mseobjecttext.pas  
+  inflating: msegui/lib/common/kernel/msenoguiintf.inc  
+  inflating: msegui/lib/common/kernel/mseconsts_id.pas  
+  inflating: msegui/lib/common/kernel/mseevent.pas  
+  inflating: msegui/lib/common/kernel/msesysutils.pas  
+  inflating: msegui/lib/common/kernel/msevariants.pas  
+  inflating: msegui/lib/common/kernel/mseprocmonitor.inc  
+  inflating: msegui/lib/common/kernel/msedynload.pas  
+  inflating: msegui/lib/common/kernel/msestream.pas  
+   creating: msegui/lib/common/opengl/
+  inflating: msegui/lib/common/opengl/msegl.pas  
+  inflating: msegui/lib/common/opengl/mseglu.pas  
+  inflating: msegui/lib/common/opengl/mseglx.pas  
+  inflating: msegui/lib/common/opengl/mseglext.pas  
+  inflating: msegui/lib/common/opengl/mseopengl.pas  
+  inflating: msegui/lib/common/opengl/mseopenglgdiinit.pas  
+  inflating: msegui/lib/common/opengl/mseftgl.pas  
+  inflating: msegui/lib/common/opengl/mseopenglcanvaswidget.pas  
+  inflating: msegui/lib/common/opengl/mseopenglgdi.pas  
+  inflating: msegui/lib/common/opengl/mseglextglob.pas  
+  inflating: msegui/lib/common/opengl/mseopenglwidget.pas  
+   creating: msegui/lib/common/serialcomm/
+  inflating: msegui/lib/common/serialcomm/msesercomm.pas  
+  inflating: msegui/lib/common/serialcomm/msecommutils.pas  
+  inflating: msegui/lib/common/serialcomm/msecommtimer.pas  
+  inflating: msegui/lib/common/serialcomm/msecommport.pas  
+   creating: msegui/lib/common/report/
+  inflating: msegui/lib/common/report/msereport.pas  
+   creating: msegui/lib/common/unicode/
+  inflating: msegui/lib/common/unicode/mseunicode.pas  
+   creating: msegui/lib/common/sysutils/
+  inflating: msegui/lib/common/sysutils/mseprocutils.pas  
+  inflating: msegui/lib/common/sysutils/msesysenv.pas  
+  inflating: msegui/lib/common/sysutils/mseinputcontroller.pas  
+  inflating: msegui/lib/common/sysutils/msefilechange.pas  
+  inflating: msegui/lib/common/sysutils/mseprocess.pas  
+  inflating: msegui/lib/common/sysutils/mseprocmonitorcomp.pas  
+   creating: msegui/lib/common/widgets/
+  inflating: msegui/lib/common/widgets/mseobjectpicker.pas  
+  inflating: msegui/lib/common/widgets/mseeditglob.pas  
+  inflating: msegui/lib/common/widgets/mseimage.pas  
+  inflating: msegui/lib/common/widgets/msesplitter.pas  
+  inflating: msegui/lib/common/widgets/mseforms.pas  
+  inflating: msegui/lib/common/widgets/msegrids.pas  
+  inflating: msegui/lib/common/widgets/msetabs.pas  
+  inflating: msegui/lib/common/widgets/msemenuwidgets.pas  
+  inflating: msegui/lib/common/widgets/msegridsglob.pas  
+  inflating: msegui/lib/common/widgets/msedispwidgets.pas  
+  inflating: msegui/lib/common/widgets/msebarcode.pas  
+  inflating: msegui/lib/common/widgets/msesimplewidgets.pas  
+  inflating: msegui/lib/common/widgets/msechartedit.pas  
+  inflating: msegui/lib/common/widgets/msewindowwidget.pas  
+  inflating: msegui/lib/common/widgets/msedock.pas  
+  inflating: msegui/lib/common/widgets/msetabsglob.pas  
+  inflating: msegui/lib/common/widgets/msedockpanelform.pas  
+  inflating: msegui/lib/common/widgets/msedial.pas  
+  inflating: msegui/lib/common/widgets/mseinplaceedit.pas  
+  inflating: msegui/lib/common/widgets/msetoolbar.pas  
+  inflating: msegui/lib/common/widgets/msechart.pas  
+  inflating: msegui/lib/common/widgets/msepolygon.pas  
+  inflating: msegui/lib/common/widgets/msepickwidget.pas  
+  inflating: msegui/lib/common/widgets/msewidgets.pas  
+  inflating: msegui/lib/common/widgets/msetraywidget.pas  
+  inflating: msegui/lib/common/COPYING  
+   creating: msegui/lib/common/printer/
+  inflating: msegui/lib/common/printer/mseprinter.pas  
+  inflating: msegui/lib/common/printer/msepostscriptprinter.pas  
+  inflating: msegui/lib/common/printer/msegdiprint.pas  
+   creating: msegui/apps/
+   creating: msegui/apps/ide/
+  inflating: msegui/apps/ide/storedcomponentinfodialog.mfm  
+  inflating: msegui/apps/ide/storedcomponentinfodialog.pas  
+  inflating: msegui/apps/ide/main_mfm.pas  
+  inflating: msegui/apps/ide/stackform_mfm.pas  
+  inflating: msegui/apps/ide/objectinspector_mfm.pas  
+  inflating: msegui/apps/ide/memoryform_mfm.pas  
+  inflating: msegui/apps/ide/msedesigner.pas  
+  inflating: msegui/apps/ide/cpuform.mfm  
+  inflating: msegui/apps/ide/cpuform.pas  
+  inflating: msegui/apps/ide/cpux86_64form_mfm.pas  
+  inflating: msegui/apps/ide/finddialogform.mfm  
+  inflating: msegui/apps/ide/finddialogform.pas  
+  inflating: msegui/apps/ide/debuggerform.mfm  
+  inflating: msegui/apps/ide/debuggerform.pas  
+  inflating: msegui/apps/ide/symbolform.mfm  
+  inflating: msegui/apps/ide/symbolform.pas  
+  inflating: msegui/apps/ide/mseide.rc  
+  inflating: msegui/apps/ide/printform_mfm.pas  
+  inflating: msegui/apps/ide/programparametersform.mfm  
+  inflating: msegui/apps/ide/programparametersform.pas  
+  inflating: msegui/apps/ide/componentpaletteform.mfm  
+  inflating: msegui/apps/ide/componentpaletteform.pas  
+  inflating: msegui/apps/ide/setcreateorderform.mfm  
+  inflating: msegui/apps/ide/setcreateorderform.pas  
+  inflating: msegui/apps/ide/panelform_mfm.pas  
+  inflating: msegui/apps/ide/actionsmodule_mfm.pas  
+  inflating: msegui/apps/ide/msecodetemplates.pas  
+  inflating: msegui/apps/ide/cpuarmform.mfm  
+  inflating: msegui/apps/ide/cpuarmform.pas  
+   creating: msegui/apps/ide/syntaxdefs/
+  inflating: msegui/apps/ide/syntaxdefs/ipf.sdef  
+  inflating: msegui/apps/ide/syntaxdefs/sql.sdef  
+  inflating: msegui/apps/ide/syntaxdefs/ipf2.sdef  
+  inflating: msegui/apps/ide/syntaxdefs/pascal2.sdef  
+  inflating: msegui/apps/ide/syntaxdefs/cpp.sdef  
+  inflating: msegui/apps/ide/syntaxdefs/pascal.sdef  
+  inflating: msegui/apps/ide/syntaxdefs/objecttext.sdef  
+  inflating: msegui/apps/ide/reportdesigner_mfm.pas  
+  inflating: msegui/apps/ide/selectsubmoduledialogform.mfm  
+  inflating: msegui/apps/ide/selectsubmoduledialogform.pas  
+  inflating: msegui/apps/ide/cpui386form_mfm.pas  
+  inflating: msegui/apps/ide/msecomptree.mfm  
+  inflating: msegui/apps/ide/msecomptree.pas  
+  inflating: msegui/apps/ide/watchform.mfm  
+  inflating: msegui/apps/ide/watchform.pas  
+  inflating: msegui/apps/ide/formdesigner_mfm.pas  
+  inflating: msegui/apps/ide/debuggerform_mfm.pas  
+  inflating: msegui/apps/ide/mseide.pas  
+  inflating: msegui/apps/ide/mseide.prj  
+  inflating: msegui/apps/ide/mseide.res  
+  inflating: msegui/apps/ide/mseparamentryform_mfm.pas  
+  inflating: msegui/apps/ide/targetconsole_mfm.pas  
+  inflating: msegui/apps/ide/selectsubmoduledialogform_mfm.pas  
+  inflating: msegui/apps/ide/sourceupdate.pas  
+  inflating: msegui/apps/ide/selectsubformdialogform.pas  
+  inflating: msegui/apps/ide/selectsubformdialogform_mfm.pas  
+  inflating: msegui/apps/ide/cpuavr32form_mfm.pas  
+  inflating: msegui/apps/ide/main.mfm  
+  inflating: msegui/apps/ide/main.pas  
+  inflating: msegui/apps/ide/settaborderform_mfm.pas  
+  inflating: msegui/apps/ide/replacedialogform.mfm  
+  inflating: msegui/apps/ide/replacedialogform.pas  
+  inflating: msegui/apps/ide/reportdesigner.mfm  
+  inflating: msegui/apps/ide/reportdesigner.pas  
+  inflating: msegui/apps/ide/make.pas  
+  inflating: msegui/apps/ide/projecttreeform.mfm  
+  inflating: msegui/apps/ide/projecttreeform.pas  
+  inflating: msegui/apps/ide/findinfiledialogform_mfm.pas  
+  inflating: msegui/apps/ide/actionsmodule.mfm  
+  inflating: msegui/apps/ide/actionsmodule.pas  
+  inflating: msegui/apps/ide/cpux86_64form.mfm  
+  inflating: msegui/apps/ide/cpux86_64form.pas  
+  inflating: msegui/apps/ide/findinfilepage.mfm  
+  inflating: msegui/apps/ide/findinfilepage.pas  
+  inflating: msegui/apps/ide/skeletons.pas  
+  inflating: msegui/apps/ide/watchpointsform_mfm.pas  
+  inflating: msegui/apps/ide/mseparamentryform.mfm  
+  inflating: msegui/apps/ide/mseparamentryform.pas  
+  inflating: msegui/apps/ide/templateeditor_mfm.pas  
+  inflating: msegui/apps/ide/commandlineform.mfm  
+  inflating: msegui/apps/ide/commandlineform.pas  
+  inflating: msegui/apps/ide/messageform_mfm.pas  
+  inflating: msegui/apps/ide/sourcehintform.mfm  
+  inflating: msegui/apps/ide/sourcehintform.pas  
+  inflating: msegui/apps/ide/commandlineform_mfm.pas  
+  inflating: msegui/apps/ide/msecomptree_mfm.pas  
+  inflating: msegui/apps/ide/msedesignparser.pas  
+  inflating: msegui/apps/ide/findinfileform.mfm  
+  inflating: msegui/apps/ide/findinfileform.pas  
+  inflating: msegui/apps/ide/disassform_mfm.pas  
+  inflating: msegui/apps/ide/projecttreeform_mfm.pas  
+  inflating: msegui/apps/ide/msetemplateselectform.mfm  
+  inflating: msegui/apps/ide/msetemplateselectform.pas  
+  inflating: msegui/apps/ide/printform.mfm  
+  inflating: msegui/apps/ide/printform.pas  
+  inflating: msegui/apps/ide/watchpointsform.mfm  
+  inflating: msegui/apps/ide/watchpointsform.pas  
+  inflating: msegui/apps/ide/objectinspector.mfm  
+  inflating: msegui/apps/ide/objectinspector.pas  
+  inflating: msegui/apps/ide/cpuavr32form.mfm  
+  inflating: msegui/apps/ide/cpuavr32form.pas  
+  inflating: msegui/apps/ide/imageselectorform_mfm.pas  
+  inflating: msegui/apps/ide/watchform_mfm.pas  
+  inflating: msegui/apps/ide/setcreateorderform_mfm.pas  
+  inflating: msegui/apps/ide/cpucpu32form.mfm  
+  inflating: msegui/apps/ide/cpucpu32form.pas  
+  inflating: msegui/apps/ide/cpuarmform_mfm.pas  
+  inflating: msegui/apps/ide/threadsform_mfm.pas  
+  inflating: msegui/apps/ide/guitemplates_mfm.pas  
+  inflating: msegui/apps/ide/breakpointsform_mfm.pas  
+  inflating: msegui/apps/ide/replacedialogform_mfm.pas  
+  inflating: msegui/apps/ide/templateeditor.mfm  
+  inflating: msegui/apps/ide/templateeditor.pas  
+  inflating: msegui/apps/ide/cpui386form.mfm  
+  inflating: msegui/apps/ide/cpui386form.pas  
+  inflating: msegui/apps/ide/sourcepage.mfm  
+  inflating: msegui/apps/ide/sourcepage.pas  
+  inflating: msegui/apps/ide/componentstore.mfm  
+  inflating: msegui/apps/ide/componentstore.pas  
+  inflating: msegui/apps/ide/finddialogform_mfm.pas  
+  inflating: msegui/apps/ide/stackform.mfm  
+  inflating: msegui/apps/ide/stackform.pas  
+  inflating: msegui/apps/ide/cpuform_mfm.pas  
+  inflating: msegui/apps/ide/findinfilepage_mfm.pas  
+  inflating: msegui/apps/ide/guitemplates.mfm  
+  inflating: msegui/apps/ide/guitemplates.pas  
+  inflating: msegui/apps/ide/programparametersform_mfm.pas  
+  inflating: msegui/apps/ide/selecteditpageform_mfm.pas  
+  inflating: msegui/apps/ide/dumpunitgroups.pas  
+  inflating: msegui/apps/ide/breakpointsform.mfm  
+  inflating: msegui/apps/ide/breakpointsform.pas  
+  inflating: msegui/apps/ide/sourceform.mfm  
+  inflating: msegui/apps/ide/sourceform.pas  
+  inflating: msegui/apps/ide/mseide_zeos.prj  
+  inflating: msegui/apps/ide/messageform.mfm  
+  inflating: msegui/apps/ide/messageform.pas  
+  inflating: msegui/apps/ide/projectoptionsform_mfm.pas  
+  inflating: msegui/apps/ide/formdesigner.mfm  
+  inflating: msegui/apps/ide/formdesigner.pas  
+  inflating: msegui/apps/ide/sourcepage_mfm.pas  
+  inflating: msegui/apps/ide/findinfileform_mfm.pas  
+  inflating: msegui/apps/ide/selecteditpageform.mfm  
+  inflating: msegui/apps/ide/selecteditpageform.pas  
+  inflating: msegui/apps/ide/disassform.mfm  
+  inflating: msegui/apps/ide/disassform.pas  
+  inflating: msegui/apps/ide/findinfiledialogform.mfm  
+  inflating: msegui/apps/ide/findinfiledialogform.pas  
+  inflating: msegui/apps/ide/storedcomponentinfodialog_mfm.pas  
+  inflating: msegui/apps/ide/msetemplateselectform_mfm.pas  
+  inflating: msegui/apps/ide/memoryform.mfm  
+  inflating: msegui/apps/ide/memoryform.pas  
+  inflating: msegui/apps/ide/imageselectorform.mfm  
+  inflating: msegui/apps/ide/imageselectorform.pas  
+  inflating: msegui/apps/ide/sourcehintform_mfm.pas  
+  inflating: msegui/apps/ide/cpucpu32form_mfm.pas  
+  inflating: msegui/apps/ide/symbolform_mfm.pas  
+  inflating: msegui/apps/ide/COPYING  
+  inflating: msegui/apps/ide/sourceform_mfm.pas  
+  inflating: msegui/apps/ide/threadsform.mfm  
+  inflating: msegui/apps/ide/threadsform.pas  
+  inflating: msegui/apps/ide/componentpaletteform_mfm.pas  
+  inflating: msegui/apps/ide/settaborderform.mfm  
+  inflating: msegui/apps/ide/settaborderform.pas  
+  inflating: msegui/apps/ide/cdesignparser.pas  
+  inflating: msegui/apps/ide/pascaldesignparser.pas  
+  inflating: msegui/apps/ide/componentstore_mfm.pas  
+  inflating: msegui/apps/ide/targetconsole.mfm  
+  inflating: msegui/apps/ide/targetconsole.pas  
+  inflating: msegui/apps/ide/panelform.mfm  
+  inflating: msegui/apps/ide/panelform.pas  
+   creating: msegui/apps/ide/templates/
+   creating: msegui/apps/ide/templates/console/
+  inflating: msegui/apps/ide/templates/console/unit.pas  
+  inflating: msegui/apps/ide/templates/console/project.pas  
+  inflating: msegui/apps/ide/templates/console/program.pas  
+   creating: msegui/apps/ide/templates/default/
+  inflating: msegui/apps/ide/templates/default/main_mfm.pas  
+  inflating: msegui/apps/ide/templates/default/subform.mfm  
+  inflating: msegui/apps/ide/templates/default/subform.pas  
+  inflating: msegui/apps/ide/templates/default/unit.pas  
+  inflating: msegui/apps/ide/templates/default/dockpanelform.mfm  
+  inflating: msegui/apps/ide/templates/default/dockpanelform.pas  
+  inflating: msegui/apps/ide/templates/default/project.pas  
+  inflating: msegui/apps/ide/templates/default/report.mfm  
+  inflating: msegui/apps/ide/templates/default/report.pas  
+  inflating: msegui/apps/ide/templates/default/program.pas  
+  inflating: msegui/apps/ide/templates/default/dockingform.mfm  
+  inflating: msegui/apps/ide/templates/default/dockingform.pas  
+  inflating: msegui/apps/ide/templates/default/main.mfm  
+  inflating: msegui/apps/ide/templates/default/main.pas  
+  inflating: msegui/apps/ide/templates/default/inheritedform.mfm  
+  inflating: msegui/apps/ide/templates/default/inheritedform.pas  
+  inflating: msegui/apps/ide/templates/default/datamodule.mfm  
+  inflating: msegui/apps/ide/templates/default/datamodule.pas  
+  inflating: msegui/apps/ide/templates/default/simpleform.mfm  
+  inflating: msegui/apps/ide/templates/default/simpleform.pas  
+  inflating: msegui/apps/ide/templates/default/mainform.mfm  
+  inflating: msegui/apps/ide/templates/default/mainform.pas  
+  inflating: msegui/apps/ide/templates/default/tabform.mfm  
+  inflating: msegui/apps/ide/templates/default/tabform.pas  
+  inflating: msegui/apps/ide/templates/default/pascform.mfm  
+  inflating: msegui/apps/ide/templates/default/pascform.pas  
+  inflating: msegui/apps/ide/templates/default.prj  
+  inflating: msegui/apps/ide/templates/library.prj  
+   creating: msegui/apps/ide/templates/library/
+  inflating: msegui/apps/ide/templates/library/unit.pas  
+  inflating: msegui/apps/ide/templates/library/project.pas  
+  inflating: msegui/apps/ide/templates/library/program.pas  
+  inflating: msegui/apps/ide/templates/console.prj  
+  inflating: msegui/apps/ide/templates/zeos.prj  
+  inflating: msegui/apps/ide/projectoptionsform.mfm  
+  inflating: msegui/apps/ide/projectoptionsform.pas  
+   creating: msegui/apps/demo/
+  inflating: msegui/apps/demo/main_mfm.pas  
+  inflating: msegui/apps/demo/main.mfm  
+  inflating: msegui/apps/demo/main.pas  
+  inflating: msegui/apps/demo/demo.pas  
+  inflating: msegui/apps/demo/demo.prj  
+   creating: msegui/apps/facedemo/
+  inflating: msegui/apps/facedemo/main_mfm.pas  
+  inflating: msegui/apps/facedemo/main.mfm  
+  inflating: msegui/apps/facedemo/main.pas  
+  inflating: msegui/apps/facedemo/facedemo.pas  
+  inflating: msegui/apps/facedemo/facedemo.prj  
+   creating: msegui/apps/myide/
+ extracting: msegui/apps/myide/regcomponents.inc  
+  inflating: msegui/apps/myide/regmycomps.pas  
+  inflating: msegui/apps/myide/mymseide.prj  
+  inflating: msegui/apps/myide/mybutton.pas  
+   creating: msegui/apps/i18ndemo/
+   creating: msegui/apps/i18ndemo/de/
+   creating: msegui/apps/i18ndemo/fr/
+  inflating: msegui/apps/i18ndemo/main_mfm.pas  
+  inflating: msegui/apps/i18ndemo/i18ndemo.pas  
+  inflating: msegui/apps/i18ndemo/i18ndemo.prj  
+  inflating: msegui/apps/i18ndemo/i18ndemo.trd  
+  inflating: msegui/apps/i18ndemo/i18ndemo.trp  
+  inflating: msegui/apps/i18ndemo/main.mfm  
+  inflating: msegui/apps/i18ndemo/main.pas  
+  inflating: msegui/apps/i18ndemo/main.rst  
+   creating: msegui/docs/
+  inflating: msegui/VERSION.TXT      
+   creating: msegui/tools/
+   creating: msegui/tools/i18n/
+  inflating: msegui/tools/i18n/messagesform_mfm.pas  
+  inflating: msegui/tools/i18n/main_mfm.pas  
+  inflating: msegui/tools/i18n/project.mfm  
+  inflating: msegui/tools/i18n/project.pas  
+  inflating: msegui/tools/i18n/main.mfm  
+  inflating: msegui/tools/i18n/main.pas  
+  inflating: msegui/tools/i18n/msei18n.rc  
+  inflating: msegui/tools/i18n/mseresourceparser.pas  
+  inflating: msegui/tools/i18n/messagesform.mfm  
+  inflating: msegui/tools/i18n/messagesform.pas  
+  inflating: msegui/tools/i18n/project_mfm.pas  
+  inflating: msegui/tools/i18n/msei18n.pas  
+  inflating: msegui/tools/i18n/msei18n.prj  
+  inflating: msegui/tools/i18n/msei18n.res  
+  inflating: msegui/tools/bmp2pas.pas  
+  inflating: msegui/tools/form2pas.pas  
+ extracting: msegui/msegui_24.png    
+ extracting: msegui/msegui_32.png    
+ extracting: msegui/msegui_48.png    
+ extracting: msegui/msegui_64.png    
+  inflating: msegui/README.TXT       
+   creating: msegui/patch_fpc_2_4_2/
+   creating: msegui/patch_fpc_2_4_2/rtl/
+   creating: msegui/patch_fpc_2_4_2/rtl/objpas/
+   creating: msegui/patch_fpc_2_4_2/rtl/objpas/classes/
+  inflating: msegui/patch_fpc_2_4_2/rtl/objpas/classes/writer.inc  
++ ./build_xroot_without_gui_32
+Free Pascal Compiler version 2.6.0 [2013/03/17] for i386
+Copyright (c) 1993-2011 by Florian Klaempfl and others
+Target OS: Linux for i386
+Compiling xroot.pas
+Compiling /home/user/rpmbuild/BUILD/xroot-src-0.0.6/mseide-msegui/lib/common/kernel/msegui.pas
+Compiling /home/user/rpmbuild/BUILD/xroot-src-0.0.6/mseide-msegui/lib/common/graphics/msegraphics.pas
+Compiling /home/user/rpmbuild/BUILD/xroot-src-0.0.6/mseide-msegui/lib/common/kernel/msetypes.pas
+Compiling /home/user/rpmbuild/BUILD/xroot-src-0.0.6/mseide-msegui/lib/common/kernel/msearrayutils.pas
+Compiling /home/user/rpmbuild/BUILD/xroot-src-0.0.6/mseide-msegui/lib/common/kernel/msestrings.pas
+Compiling /home/user/rpmbuild/BUILD/xroot-src-0.0.6/mseide-msegui/lib/common/kernel/msearrayutils.pas
+Compiling /home/user/rpmbuild/BUILD/xroot-src-0.0.6/mseide-msegui/lib/common/kernel/msereal.pas
+Compiling /home/user/rpmbuild/BUILD/xroot-src-0.0.6/mseide-msegui/lib/common/kernel/msesys.pas
+Compiling /home/user/rpmbuild/BUILD/xroot-src-0.0.6/mseide-msegui/lib/common/kernel/mseerr.pas
+Compiling /home/user/rpmbuild/BUILD/xroot-src-0.0.6/mseide-msegui/lib/common/kernel/msesystypes.pas
+Compiling /home/user/rpmbuild/BUILD/xroot-src-0.0.6/mseide-msegui/lib/common/kernel/i386-linux/msesysintf1.pas
+Compiling /home/user/rpmbuild/BUILD/xroot-src-0.0.6/mseide-msegui/lib/common/kernel/mselibc.pas
+Compiling /home/user/rpmbuild/BUILD/xroot-src-0.0.6/mseide-msegui/lib/common/kernel/msectypes.pas
+Compiling /home/user/rpmbuild/BUILD/xroot-src-0.0.6/mseide-msegui/lib/common/kernel/msedynload.pas
+Compiling /home/user/rpmbuild/BUILD/xroot-src-0.0.6/mseide-msegui/lib/common/kernel/i386-linux/msesysintf1.pas
+Compiling /home/user/rpmbuild/BUILD/xroot-src-0.0.6/mseide-msegui/lib/common/kernel/msedate.pas
+Compiling /home/user/rpmbuild/BUILD/xroot-src-0.0.6/mseide-msegui/lib/common/kernel/i386-linux/msesysintf.pas
+Compiling /home/user/rpmbuild/BUILD/xroot-src-0.0.6/mseide-msegui/lib/common/kernel/i386-linux/msesetlocale.pas
+Compiling /home/user/rpmbuild/BUILD/xroot-src-0.0.6/mseide-msegui/lib/common/kernel/i386-linux/cwstring.pp
+Compiling /home/user/rpmbuild/BUILD/xroot-src-0.0.6/mseide-msegui/lib/common/kernel/i386-linux/msesysintf.pas
+Compiling /home/user/rpmbuild/BUILD/xroot-src-0.0.6/mseide-msegui/lib/common/kernel/msestream.pas
+Compiling /home/user/rpmbuild/BUILD/xroot-src-0.0.6/mseide-msegui/lib/common/kernel/msethread.pas
+Compiling /home/user/rpmbuild/BUILD/xroot-src-0.0.6/mseide-msegui/lib/common/kernel/mselist.pas
+Compiling /home/user/rpmbuild/BUILD/xroot-src-0.0.6/mseide-msegui/lib/common/kernel/mseglob.pas
+Compiling /home/user/rpmbuild/BUILD/xroot-src-0.0.6/mseide-msegui/lib/common/kernel/msebits.pas
+Compiling /home/user/rpmbuild/BUILD/xroot-src-0.0.6/mseide-msegui/lib/common/kernel/msedatalist.pas
+Compiling /home/user/rpmbuild/BUILD/xroot-src-0.0.6/mseide-msegui/lib/common/kernel/msestream.pas
+Compiling /home/user/rpmbuild/BUILD/xroot-src-0.0.6/mseide-msegui/lib/common/kernel/msethread.pas
+Compiling /home/user/rpmbuild/BUILD/xroot-src-0.0.6/mseide-msegui/lib/common/kernel/mseevent.pas
+Compiling /home/user/rpmbuild/BUILD/xroot-src-0.0.6/mseide-msegui/lib/common/graphics/msegraphutils.pas
+Compiling /home/user/rpmbuild/BUILD/xroot-src-0.0.6/mseide-msegui/lib/common/kernel/mseformatstr.pas
+Compiling /home/user/rpmbuild/BUILD/xroot-src-0.0.6/mseide-msegui/lib/common/kernel/msefloattostr.pas
+Compiling /home/user/rpmbuild/BUILD/xroot-src-0.0.6/mseide-msegui/lib/common/kernel/msekeyboard.pas
+Compiling /home/user/rpmbuild/BUILD/xroot-src-0.0.6/mseide-msegui/lib/common/kernel/mseapplication.pas
+Compiling /home/user/rpmbuild/BUILD/xroot-src-0.0.6/mseide-msegui/lib/common/kernel/mseclasses.pas
+Compiling /home/user/rpmbuild/BUILD/xroot-src-0.0.6/mseide-msegui/lib/common/ifi/mseifiglob.pas
+Compiling /home/user/rpmbuild/BUILD/xroot-src-0.0.6/mseide-msegui/lib/common/widgets/mseeditglob.pas
+Compiling /home/user/rpmbuild/BUILD/xroot-src-0.0.6/mseide-msegui/lib/common/kernel/mseguiglob.pas
+Compiling /home/user/rpmbuild/BUILD/xroot-src-0.0.6/mseide-msegui/lib/common/kernel/mseclasses.pas
+Compiling /home/user/rpmbuild/BUILD/xroot-src-0.0.6/mseide-msegui/lib/common/ifi/mseifiglob.pas
+Compiling /home/user/rpmbuild/BUILD/xroot-src-0.0.6/mseide-msegui/lib/common/widgets/mseeditglob.pas
+Compiling /home/user/rpmbuild/BUILD/xroot-src-0.0.6/mseide-msegui/lib/common/kernel/mseapplication.pas
+Compiling /home/user/rpmbuild/BUILD/xroot-src-0.0.6/mseide-msegui/lib/common/kernel/msethread.pas
+Compiling /home/user/rpmbuild/BUILD/xroot-src-0.0.6/mseide-msegui/lib/common/kernel/i386-linux/msesysintf.pas
+Compiling /home/user/rpmbuild/BUILD/xroot-src-0.0.6/mseide-msegui/lib/common/kernel/msestream.pas
+Compiling /home/user/rpmbuild/BUILD/xroot-src-0.0.6/mseide-msegui/lib/common/kernel/msefileutils.pas
+Compiling /home/user/rpmbuild/BUILD/xroot-src-0.0.6/mseide-msegui/lib/common/kernel/i386-linux/msesysintf.pas
+Compiling /home/user/rpmbuild/BUILD/xroot-src-0.0.6/mseide-msegui/lib/common/kernel/msesysutils.pas
+Compiling /home/user/rpmbuild/BUILD/xroot-src-0.0.6/mseide-msegui/lib/common/kernel/msefileutils.pas
+Compiling /home/user/rpmbuild/BUILD/xroot-src-0.0.6/mseide-msegui/lib/common/kernel/msedatalist.pas
+Compiling /home/user/rpmbuild/BUILD/xroot-src-0.0.6/mseide-msegui/lib/common/kernel/msestreaming.pas
+Compiling /home/user/rpmbuild/BUILD/xroot-src-0.0.6/mseide-msegui/lib/common/kernel/mseact.pas
+Compiling /home/user/rpmbuild/BUILD/xroot-src-0.0.6/mseide-msegui/lib/common/kernel/mserichstring.pas
+Compiling /home/user/rpmbuild/BUILD/xroot-src-0.0.6/mseide-msegui/lib/common/kernel/mseapplication.pas
+Compiling /home/user/rpmbuild/BUILD/xroot-src-0.0.6/mseide-msegui/lib/common/kernel/msefileutils.pas
+Compiling /home/user/rpmbuild/BUILD/xroot-src-0.0.6/mseide-msegui/lib/common/sysutils/mseprocutils.pas
+Compiling /home/user/rpmbuild/BUILD/xroot-src-0.0.6/mseide-msegui/lib/common/kernel/msepipestream.pas
+Compiling /home/user/rpmbuild/BUILD/xroot-src-0.0.6/mseide-msegui/lib/common/kernel/i386-linux/mseprocmonitor.pas
+Compiling /home/user/rpmbuild/BUILD/xroot-src-0.0.6/mseide-msegui/lib/common/kernel/msestat.pas
+Compiling /home/user/rpmbuild/BUILD/xroot-src-0.0.6/mseide-msegui/lib/common/kernel/msehash.pas
+Compiling /home/user/rpmbuild/BUILD/xroot-src-0.0.6/mseide-msegui/lib/common/kernel/msestatfile.pas
+Compiling /home/user/rpmbuild/BUILD/xroot-src-0.0.6/mseide-msegui/lib/common/ifi/mseificomp.pas
+Compiling /home/user/rpmbuild/BUILD/xroot-src-0.0.6/mseide-msegui/lib/common/ifi/mseificompglob.pas
+Compiling /home/user/rpmbuild/BUILD/xroot-src-0.0.6/mseide-msegui/lib/common/widgets/msegridsglob.pas
+Compiling /home/user/rpmbuild/BUILD/xroot-src-0.0.6/mseide-msegui/lib/common/kernel/msearrayprops.pas
+Compiling /home/user/rpmbuild/BUILD/xroot-src-0.0.6/mseide-msegui/lib/common/kernel/msedatamodules.pas
+Compiling /home/user/rpmbuild/BUILD/xroot-src-0.0.6/mseide-msegui/lib/common/kernel/msegui.pas
+Compiling /home/user/rpmbuild/BUILD/xroot-src-0.0.6/mseide-msegui/lib/common/kernel/msepointer.pas
+Compiling /home/user/rpmbuild/BUILD/xroot-src-0.0.6/mseide-msegui/lib/common/kernel/msetimer.pas
+Compiling /home/user/rpmbuild/BUILD/xroot-src-0.0.6/mseide-msegui/lib/common/kernel/i386-linux/mseguiintf.pas
+Compiling /home/user/rpmbuild/BUILD/xroot-src-0.0.6/mseide-msegui/lib/common/kernel/i386-linux/xft.pas
+Compiling /home/user/rpmbuild/BUILD/xroot-src-0.0.6/mseide-msegui/lib/common/kernel/i386-linux/xrender.pas
+Compiling /home/user/rpmbuild/BUILD/xroot-src-0.0.6/mseide-msegui/lib/common/graphics/msefontconfig.pas
+Compiling /home/user/rpmbuild/BUILD/xroot-src-0.0.6/mseide-msegui/lib/common/kernel/i386-linux/sm.pas
+Compiling /home/user/rpmbuild/BUILD/xroot-src-0.0.6/mseide-msegui/lib/common/kernel/msesonames.pas
+Compiling /home/user/rpmbuild/BUILD/xroot-src-0.0.6/mseide-msegui/lib/common/kernel/i386-linux/ice.pas
+Compiling /home/user/rpmbuild/BUILD/xroot-src-0.0.6/mseide-msegui/lib/common/kernel/msegui.pas
+Compiling /home/user/rpmbuild/BUILD/xroot-src-0.0.6/mseide-msegui/lib/common/graphics/msebitmap.pas
+Compiling /home/user/rpmbuild/BUILD/xroot-src-0.0.6/mseide-msegui/lib/common/image/msegraphicstream.pas
+Compiling /home/user/rpmbuild/BUILD/xroot-src-0.0.6/mseide-msegui/lib/common/kernel/msestockobjects.pas
+Compiling /home/user/rpmbuild/BUILD/xroot-src-0.0.6/mseide-msegui/lib/common/kernel/msegui.pas
+Compiling /home/user/rpmbuild/BUILD/xroot-src-0.0.6/mseide-msegui/lib/common/kernel/msethreadcomp.pas
+Compiling /home/user/rpmbuild/BUILD/xroot-src-0.0.6/mseide-msegui/lib/common/widgets/msewidgets.pas
+Compiling /home/user/rpmbuild/BUILD/xroot-src-0.0.6/mseide-msegui/lib/common/kernel/msescrollbar.pas
+Compiling /home/user/rpmbuild/BUILD/xroot-src-0.0.6/mseide-msegui/lib/common/kernel/mseshapes.pas
+Compiling /home/user/rpmbuild/BUILD/xroot-src-0.0.6/mseide-msegui/lib/common/graphics/msedrawtext.pas
+Compiling /home/user/rpmbuild/BUILD/xroot-src-0.0.6/mseide-msegui/lib/common/graphics/msefont.pas
+Compiling /home/user/rpmbuild/BUILD/xroot-src-0.0.6/mseide-msegui/lib/common/kernel/msestockobjects.pas
+Compiling /home/user/rpmbuild/BUILD/xroot-src-0.0.6/mseide-msegui/lib/common/kernel/msestockobjects_mfm.pas
+Compiling /home/user/rpmbuild/BUILD/xroot-src-0.0.6/mseide-msegui/lib/common/kernel/mseconsts.pas
+Compiling /home/user/rpmbuild/BUILD/xroot-src-0.0.6/mseide-msegui/lib/common/kernel/msemenus.pas
+Compiling /home/user/rpmbuild/BUILD/xroot-src-0.0.6/mseide-msegui/lib/common/widgets/msemenuwidgets.pas
+Compiling /home/user/rpmbuild/BUILD/xroot-src-0.0.6/mseide-msegui/lib/common/widgets/msewidgets.pas
+Compiling /home/user/rpmbuild/BUILD/xroot-src-0.0.6/mseide-msegui/lib/common/widgets/msemenuwidgets.pas
+Compiling /home/user/rpmbuild/BUILD/xroot-src-0.0.6/mseide-msegui/lib/common/kernel/mseactions.pas
+Compiling /home/user/rpmbuild/BUILD/xroot-src-0.0.6/mseide-msegui/lib/common/graphics/msex11gdi.pas
+Compiling /home/user/rpmbuild/BUILD/xroot-src-0.0.6/mseide-msegui/lib/common/graphics/msefcfontselect.pas
+Compiling /home/user/rpmbuild/BUILD/xroot-src-0.0.6/mseide-msegui/lib/common/widgets/mseforms.pas
+Compiling /home/user/rpmbuild/BUILD/xroot-src-0.0.6/mseide-msegui/lib/common/widgets/msedock.pas
+Compiling /home/user/rpmbuild/BUILD/xroot-src-0.0.6/mseide-msegui/lib/common/kernel/msedrag.pas
+Compiling /home/user/rpmbuild/BUILD/xroot-src-0.0.6/mseide-msegui/lib/common/widgets/msesplitter.pas
+Compiling /home/user/rpmbuild/BUILD/xroot-src-0.0.6/mseide-msegui/lib/common/widgets/mseobjectpicker.pas
+Compiling /home/user/rpmbuild/BUILD/xroot-src-0.0.6/mseide-msegui/lib/common/widgets/msesimplewidgets.pas
+Compiling /home/user/rpmbuild/BUILD/xroot-src-0.0.6/mseide-msegui/lib/common/widgets/msetabsglob.pas
+Compiling /home/user/rpmbuild/BUILD/xroot-src-0.0.6/mseide-msegui/lib/common/widgets/msetabs.pas
+Compiling /home/user/rpmbuild/BUILD/xroot-src-0.0.6/mseide-msegui/lib/common/widgets/mseforms.pas
+Compiling main.pas
+Compiling /home/user/rpmbuild/BUILD/xroot-src-0.0.6/mseide-msegui/lib/common/editwidgets/msedataedits.pas
+Compiling /home/user/rpmbuild/BUILD/xroot-src-0.0.6/mseide-msegui/lib/common/widgets/mseinplaceedit.pas
+Compiling /home/user/rpmbuild/BUILD/xroot-src-0.0.6/mseide-msegui/lib/common/editwidgets/mseedit.pas
+Compiling /home/user/rpmbuild/BUILD/xroot-src-0.0.6/mseide-msegui/lib/common/widgets/msegrids.pas
+Compiling /home/user/rpmbuild/BUILD/xroot-src-0.0.6/mseide-msegui/lib/common/editwidgets/msegraphedits.pas
+Compiling /home/user/rpmbuild/BUILD/xroot-src-0.0.6/mseide-msegui/lib/common/editwidgets/msewidgetgrid.pas
+Compiling /home/user/rpmbuild/BUILD/xroot-src-0.0.6/mseide-msegui/lib/common/editwidgets/msedataedits.pas
+Compiling /home/user/rpmbuild/BUILD/xroot-src-0.0.6/mseide-msegui/lib/common/editwidgets/mseedit.pas
+Compiling /home/user/rpmbuild/BUILD/xroot-src-0.0.6/mseide-msegui/lib/common/editwidgets/msedataedits.pas
+Compiling /home/user/rpmbuild/BUILD/xroot-src-0.0.6/mseide-msegui/lib/common/editwidgets/msedropdownlist.pas
+Compiling /home/user/rpmbuild/BUILD/xroot-src-0.0.6/mseide-msegui/lib/common/dialogs/msepopupcalendar.pas
+Compiling /home/user/rpmbuild/BUILD/xroot-src-0.0.6/mseide-msegui/lib/common/widgets/msedispwidgets.pas
+Compiling /home/user/rpmbuild/BUILD/xroot-src-0.0.6/mseide-msegui/lib/common/dialogs/msepopupcalendar_mfm.pas
+Compiling /home/user/rpmbuild/BUILD/xroot-src-0.0.6/mseide-ms
+error: stopped by timeout
+delete folder /home/tmp/test/chroot
+egui/lib/common/kernel/msesumlist.pas
+Compiling gnugettext.pas
+gnugettext.pas(1639,10) Warning: Function result does not seem to be set
+gnugettext.pas(2105,4) Warning: Comment level 2 found
+gnugettext.pas(2107,3) Warning: Comment level 2 found
+gnugettext.pas(2102,5) Note: Local variable "I" not used
+gnugettext.pas(2102,7) Note: Local variable "J" not used
+gnugettext.pas(2103,5) Note: Local variable "S" not used
+gnugettext.pas(2385,19) Warning: Local variable "lang" does not seem to be initialized
+gnugettext.pas(3694,5) Warning: unreachable code
+gnugettext.pas(1444,3) Note: Local variable "Win32PlatformIsUnicode" is assigned but never used
+Compiling main_mfm.pas
+Compiling dialog.pas
+Compiling dialog_mfm.pas
+dialog_mfm.pas(4572,1) Error: Can't create object file: dialog_mfm.o
+dialog_mfm.pas(4572,1) Fatal: Can't create object dialog_mfm.o
+Fatal: Compilation aborted
+./build_xroot_without_gui_32: line 5: ./_rm_backfiles.sh: No such file or directory
+error: Bad exit status from /var/tmp/rpm-tmp.UU7RGY (%build)
+
+
+RPM build errors:
+    user build does not exist - using root
+    group build does not exist - using root
+    user build does not exist - using root
+    group build does not exist - using root
+    Bad exit status from /var/tmp/rpm-tmp.UU7RGY (%build)
+error: Unable to open /usr/lib/rpm/rpmrc for reading: No such file or directory.
+delete folder /home/tmp/test
